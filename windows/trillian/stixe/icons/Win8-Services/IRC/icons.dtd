@@ -1,0 +1,63 @@
+
+<!ENTITY ctrlFilesIRC '
+	<bitmap	name="bmpIconServices-IRC-Mini"		file="../../stixe/icons/Win8-Services/IRC/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-IRC-Tiny"		file="../../stixe/icons/Win8-Services/IRC/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-IRC"		file="../../stixe/icons/Win8-Services/IRC/Services-Helper.png"/>
+	<bitmap	name="bmpIconIRCNickList"		file="../../stixe/icons/Default-Services/IRC/IRCNick-normal.png"/>
+	<taskbaricon	name="icoIRC"				file="../../stixe/icons/Win8-Services/IRC/IRC.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-IRC-Tiny '
+	<icon type=	"IRC-online"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"IRC-offline"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"IRC-away"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"IRC-invisible"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-IRC-16 '
+	<background name="IRC" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="IRC" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="IRC" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="IRC" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="IRC" type=	"group-online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	128	" bottom="	144	"/></background>
+	<background name="IRC" type=	"group-offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	144	" bottom="	160	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-IRC-48 '
+'>
+
+<!ENTITY % iclToolbarServices-IRC-Mini '
+	<background name="IRC" type=	"online"	state="normal"><source name="bmpIconServices-IRC-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="IRC" type=	"mixed"		state="normal"><source name="bmpIconServices-IRC-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="IRC" type=	"offline"	state="normal"><source name="bmpIconServices-IRC-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="IRC" type=	"away"	state="normal"><source name="bmpIconServices-IRC-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="IRC" type=	"invisible"	state="normal"><source name="bmpIconServices-IRC-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-IRC-Tiny '
+	<background name="IRC" type=	"online"	state="normal"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="IRC" type=	"offline"	state="normal"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="IRC" type=	"away"	state="normal"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="IRC" type=	"invisible"	state="normal"><source name="bmpIconServices-IRC-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-IRC '
+	<background name="IRC-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="IRC-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="IRC-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="IRC-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-IRC '
+	<icon name="IRC" state="all"><source name="bmpIconServicesHelper-IRC" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+<!ENTITY % iclListIRCNick '
+	<icon type=	"normal"	 state=	"all"	><source name="bmpIconIRCNickList" left="	0	" right="	16	" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"op"	 state=	"all"	><source name="bmpIconIRCNickList" left="	0	" right="	16	" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"voice"	 state=	"all"	><source name="bmpIconIRCNickList" left="	0	" right="	16	" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"half-ops"	 state=	"all"	><source name="bmpIconIRCNickList" left="	0	" right="	16	" top="	48	" bottom="	64	"/></icon>
+	<icon type=	"owners"	 state=	"all"	><source name="bmpIconIRCNickList" left="	0	" right="	16	" top="	64	" bottom="	80	"/></icon>
+	<icon type=	"protected"	 state=	"all"	><source name="bmpIconIRCNickList" left="	0	" right="	16	" top="	80	" bottom="	96	"/></icon>
+'>
+<!ENTITY iclListIRCNick '%iclListIRCNick;'>

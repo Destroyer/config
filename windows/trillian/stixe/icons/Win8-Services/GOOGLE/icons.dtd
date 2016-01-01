@@ -1,0 +1,67 @@
+
+<!ENTITY ctrlFilesGOOGLE '
+	<bitmap	name="bmpIconServices-GOOGLE-Mini"		file="../../stixe/icons/Win8-Services/GOOGLE/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-GOOGLE-Tiny"		file="../../stixe/icons/Win8-Services/GOOGLE/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-GOOGLE"		file="../../stixe/icons/Win8-Services/GOOGLE/Services-Helper.png"/>
+	<taskbaricon	name="icoGOOGLE"				file="../../stixe/icons/Win8-Services/GOOGLE/GOOGLE.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-GOOGLE-Tiny '
+	<icon type=	"GOOGLE-online"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"GOOGLE-free for chat"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"GOOGLE-offline"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"GOOGLE-away"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"GOOGLE-extended away"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"GOOGLE-do not disturb"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"GOOGLE-invisible"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-GOOGLE-16 '
+	<background name="GOOGLE" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="GOOGLE" type=	"free for chat"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="GOOGLE" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="GOOGLE" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="GOOGLE" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="GOOGLE" type=	"do not disturb"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="GOOGLE" type=	"extended away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="GOOGLE" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	112	" bottom="	128	"/></background>
+	<background name="GOOGLE" type=	"group-online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	128	" bottom="	144	"/></background>
+	<background name="GOOGLE" type=	"group-offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	144	" bottom="	160	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-GOOGLE-48 '
+'>
+
+<!ENTITY % iclToolbarServices-GOOGLE-Mini '
+	<background name="GOOGLE" type=	"online"	state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="GOOGLE" type=	"free for chat"	state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="GOOGLE" type=	"mixed"		state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="GOOGLE" type=	"offline"	state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="GOOGLE" type=	"away"	state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="GOOGLE" type=	"extended away"	state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="GOOGLE" type=	"do not disturb"	state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="GOOGLE" type=	"invisible"	state="normal"><source name="bmpIconServices-GOOGLE-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-GOOGLE-Tiny '
+	<background name="GOOGLE" type=	"online"	state="normal"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="GOOGLE" type=	"free for chat"	state="normal"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="GOOGLE" type=	"offline"	state="normal"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="GOOGLE" type=	"away"	state="normal"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="GOOGLE" type=	"extended away"	state="normal"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="GOOGLE" type=	"do not disturb"	state="normal"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="GOOGLE" type=	"invisible"	state="normal"><source name="bmpIconServices-GOOGLE-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-GOOGLE '
+	<background name="GOOGLE-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="GOOGLE-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="GOOGLE-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="GOOGLE-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-GOOGLE '
+	<icon name="GOOGLE" state="all"><source name="bmpIconServicesHelper-GOOGLE" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

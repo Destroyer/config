@@ -1,0 +1,377 @@
+<control name="taskbar" type="taskbar">
+	<settings name="button-type" value="taskbar-button"/>
+	<settings name="button-minx" value="20"/>
+	<settings name="button-miny" value="36"/>
+	<settings name="button-maxx" value="300"/>
+	<settings name="button-maxy" value="36"/>
+	<settings name="button-spacing" value="0"/>
+	<settings name="vertical" value="1"/>
+	<settings name="overflow" value="scroll"/>
+</control>
+
+<control name="taskbar-icons" type="switcher">
+	&iclSwitcherServices16;
+	<background name="trillian">&icoTrillian-Small;</background>
+	<background name="main">&icoContactList-Small;</background>
+	<settings name="stretch" value="1"/>
+</control>
+
+<control name="taskbar-button" type="resizeable-button">
+	<!-- Current tab -->
+	<background transparent="1" type="push" stretch="1">
+		<source name="vtabs-theme" left="208" top="102" right="312" bottom="153"/> <!-- theme -->
+		<slice left="218" top="105" right="302" bottom="133"/>
+	</background>
+	<background  name="push-typing"  transparent="1" middle="1" stretch="1" visible="%this.typing%*%this.push%">
+		<source name="vtabs" left="280" top="30" right="310" bottom="60"/>
+		<slice left="283" top="33" right="307" bottom="57"/>
+			<rect>
+				<left num="2" width="0"/>
+				<top num="3" height="0"/>
+				<right num="32" width="0"/>
+				<bottom num="33" height="0"/>
+			</rect>
+	</background>
+	<!-- Unselected tab -->
+	<background transparent="1" type="flat" stretch="1" visible="!%this.flash%*!%this.typing%*!%this.push%">
+		<source name="vtabs-theme" left="0" top="102" right="104" bottom="153"/>
+		<slice left="10" top="105" right="94" bottom="150"/>
+	</background>
+
+	<background transparent="1" name="flat-flash" stretch="1" visible="%this.flash%*!%this.typing%*%this.flat%*!%this.push%">
+		<source name="vtabs-theme" left="0" top="51" right="104" bottom="102"/>
+		<slice left="10" top="54" right="94" bottom="99"/>
+	</background>
+
+<!--	<background transparent="1" name="flat-typing" stretch="1" visible="%this.typing%*%this.flat%*!%this.push%">
+		<source name="vtabs-theme" left="0" top="0" right="104" bottom="51"/>
+		<slice left="3" top="3" right="101" bottom="48"/>
+	</background> -->
+	<background  name="flat-typing"  transparent="1" middle="1" stretch="1" visible="%this.typing%*%this.flat%">
+		<source name="vtabs" left="280" top="30" right="310" bottom="60"/>
+		<slice left="283" top="33" right="307" bottom="57"/>
+			<rect>
+				<left num="2" width="0"/>
+				<top num="3" height="0"/>
+				<right num="32" width="0"/>
+				<bottom num="33" height="0"/>
+			</rect>
+	</background>
+	<!-- Unselected Hover tab -->
+	<background transparent="1" type="over" stretch="1" visible="!%this.flash%*!%this.typing%*!%this.push%">
+		<source name="vtabs-theme" left="104" top="102" right="208" bottom="153"/>
+		<slice left="114" top="105" right="198" bottom="150"/>
+	</background>
+
+	<background transparent="1" name="over-flash" stretch="1" visible="%this.flash%*!%this.typing%*%this.hover%*!%this.push%">
+		<source name="vtabs-theme" left="104" top="51" right="208" bottom="102"/>
+		<slice left="114" top="54" right="198" bottom="99"/>
+	</background>
+
+<!--	<background transparent="1" name="over-typing" stretch="1" visible="%this.typing%*%this.hover%*!%this.push%">
+		<source name="vtabs-theme" left="104" top="0" right="208" bottom="51"/>
+		<slice left="107" top="3" right="205" bottom="48"/>
+	</background> -->
+	<background  name="over-typing" transparent="1" middle="1" stretch="1" visible="%this.typing%*%this.hover%">
+		<source name="vtabs" left="280" top="30" right="310" bottom="60"/>
+		<slice left="283" top="33" right="307" bottom="57"/>
+			<rect>
+				<left num="2" width="0"/>
+				<top num="3" height="0"/>
+				<right num="32" width="0"/>
+				<bottom num="33" height="0"/>
+			</rect>
+	</background>
+	<icontrol source="tab-name" name="line1">
+		<rect>
+			<left num="31+3" width="0"/>
+			<top num="2" height="0"/>
+			<right num="5 + (%this.count.hastext% * (15 + %this.count.desired_width%)) + 16*%this.status-icon%" width="1"/> 
+			<bottom num="2+(%this.line2.hastext%*&TabSub;)*16" height="1"/>
+		</rect>
+		<settings name="text-wordwrap" value="0"/>
+		<settings name="text-alignment" value="left"/>
+		<settings name="text-vertical-alignment" value="0"/>
+	</icontrol>
+
+	<icontrol source="tab-status" name="line2" visible="&TabSub;">
+		<rect>
+			<left num="31+3" width="0"/>
+			<top num="%this.line2.hastext%*16" height="0"/>
+			<right num="5 + (%this.count.hastext% * (15 + %this.count.desired_width%)) + 16*%this.status-icon%" width="1"/> 
+			<bottom num="2" height="1"/>
+		</rect>
+		<settings name="text-wordwrap" value="1"/>
+		<settings name="text-maxlines" value="1"/>
+		<settings name="text-alignment" value="left"/>
+		<settings name="text-vertical-alignment" value="0"/>
+	</icontrol>
+	
+
+	
+	<background transparent="1" middle="1" stretch="1" visible="!%this.typing%">
+		<source name="skin-asset" left="0" top="63" right="52" bottom="115"/>  <!-- theme -->
+		<slice left="2" top="65" right="50" bottom="113"/>
+			<rect>
+				<left num="3" width="0"/>
+				<top num="4" height="0"/>
+				<right num="31" width="0"/>
+				<bottom num="32" height="0"/>
+			</rect>
+	</background>
+			
+	<icontrol source="avatar-switcher" name="buddy-icon" visible="1">
+		<rect>
+			<left num="5" width="0"/>
+			<top num="6" height="0"/>
+			<right num="29" width="0"/>
+			<bottom num="30" height="0"/>
+		</rect>
+	</icontrol>
+
+	
+	<icontrol source="tab-close" name="close" visible="%this.hover%">
+		<rect>
+			<left num="19" width="1"/>
+			<top num="10" height="0"/>
+			<right num="3" width="1"/>
+			<bottom num="26" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="medium-status" name="status-icon" visible="%this.status-icon%*!%this.hover%">
+			<rect>
+				<left num="19" width="1"/>
+				<top num="10" height="0"/>
+				<right num="3" width="1"/>
+				<bottom num="26" height="0"/>
+			</rect>
+		</icontrol>
+
+
+	<!-- Background for the count -->
+	<background name="count" stretch="1" visible="%this.count.hastext%">
+		<source name="general16-asset" left="64" top="0" right="83" bottom="14"/> 
+		<slice left="71" top="6" right="75" bottom="7"/>
+		<rect>
+			<left num="15 + 16*%this.status-icon% + %this.count.desired_width%" width="1"/>
+			<top num="10" height="0"/>
+			<right num="5 + 16*%this.status-icon%" width="1"/>
+			<bottom num="25" height="0"/>
+		</rect>
+	</background>
+
+	<!-- The actual count amount -->
+	<icontrol source="tab-count" name="count" visible="%this.count.hastext%">
+		<rect>
+			<left num="10 + 16*%this.status-icon% + %this.count.desired_width%" width="1"/> 
+			<top num="11" height="0"/>
+			<right num="10 + 16*%this.status-icon%" width="1"/>
+			<bottom num="24" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+
+<control name="tab-name" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0"/>
+	<forecolor source="black"/>
+	<color name="normal-fore" source="black"/>
+	<color name="over-fore" source="black"/>
+	<color name="push-fore" source="white"/>
+	<color name="flash" source="black"/>
+	<color name="typing" source="black"/>
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/> 
+</control>
+
+<control name="tab-status" type="topic">
+	<font source="segoeui" type="Segoe UI" size="8" bold="0"/>
+	<forecolor red="0" green="0" blue="0"/>
+	<color name="normal-fore" red="100" green="100" blue="100"/>
+	<color name="over-fore" source="black"/>
+	<color name="push-fore" red="220" green="220" blue="220"/>
+	<color name="flash" source="black"/>
+	<color name="typing" source="black"/>
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/> 
+</control>
+
+<control name="tab-count" type="topic">
+	<font source="segoeui" type="Segoe UI" size="7" bold="1"/>
+	<color name="normal-fore" source="white"/>
+	<color name="over-fore" source="white"/>
+	<color name="push-fore" source="white"/>
+	<color name="flash" source="white"/>
+	<color name="typing" source="white"/>
+	<settings name="alignment" value="center"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/> 
+</control>
+
+
+<!-- Tab Close Button (containers) -->
+<control name="tab-close" type="button">
+	<background name="flat">
+		<source name="vtabs-theme" left="261" top="0" right="278" bottom="15"/> <!-- no theme -->
+	</background>
+	<background name="push">
+		<source name="vtabs-theme" left="278" top="0" right="295" bottom="15"/> <!-- no theme -->
+	</background>
+	<background name="over">
+		<source name="vtabs-theme" left="295" top="0" right="312" bottom="15"/> <!-- no theme -->
+	</background>
+	<tooltip text="Close Tab" />
+</control>
+
+<control name="taskbar-medium" type="switcher">
+	&iclToolbarServicesMini;
+</control>
+
+<control name="btn-taskbarup" type="resizeable-button">
+	<!-- Flat -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="flat">
+		<source name="buttons-asset" left="105" top="19" right="124" bottom="38"/> <!-- theme -->
+		<slice left="105" top="19" right="124" bottom="38"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="19" width="0"/>
+			<bottom num="19" height="0"/>
+		</rect>
+	</background>
+
+	<!-- Hover -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="over">
+		<source name="buttons-asset" left="124" top="19" right="143" bottom="38"/> <!-- theme -->
+		<slice left="124" top="19" right="143" bottom="38"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="19" width="0"/>
+			<bottom num="19" height="0"/>
+		</rect>
+	</background>
+
+	<!-- Push -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="push">
+		<source name="buttons-asset" left="143" top="19" right="162" bottom="38"/> <!-- theme -->
+		<slice left="143" top="19" right="162" bottom="38"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="19" width="0"/>
+			<bottom num="19" height="0"/>
+		</rect>
+	</background>
+	<tooltip text="Scroll Up" />
+	</control>
+
+<control name="btn-taskbardown" type="resizeable-button">
+	<!-- Flat -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="flat">
+		<source name="buttons-asset" left="105" top="0" right="124" bottom="19"/> <!-- theme -->
+		<slice left="105" top="0" right="124" bottom="19"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="19" width="0"/>
+			<bottom num="19" height="0"/>
+		</rect>
+	</background>
+
+	<!-- Hover -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="over">
+		<source name="buttons-asset" left="124" top="0" right="143" bottom="19"/> <!-- theme -->
+		<slice left="124" top="0" right="143" bottom="19"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="19" width="0"/>
+			<bottom num="19" height="0"/>
+		</rect>
+	</background>
+
+	<!-- Push -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="push">
+		<source name="buttons-asset" left="143" top="0" right="162" bottom="19"/> <!-- theme -->
+		<slice left="143" top="0" right="162" bottom="19"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="19" width="0"/>
+			<bottom num="19" height="0"/>
+		</rect>
+	</background>
+	<tooltip text="Scroll Down" />
+	</control>
+
+<control name="taskbar-button-extra" type="resizeable-button">
+	<!-- Current tab -->
+	<background transparent="1" type="push" stretch="1">
+		<source name="tabs-theme" left="208" top="102" right="312" bottom="153"/> <!-- theme -->
+		<slice left="211" top="105" right="309" bottom="133"/>
+	</background>
+
+	<!-- Unselected tab -->
+	<background transparent="1" type="flat" stretch="1" visible="!%this.flash%*!%this.typing%*!%this.push%">
+		<source name="tabs-theme" left="0" top="102" right="104" bottom="153"/>
+		<slice left="3" top="105" right="101" bottom="150"/>
+		<rect>
+			<bottom num="1" height="1"/>
+		</rect>
+	</background>
+
+	<background transparent="1" name="flat-flash" stretch="1" visible="%this.flash%*!%this.typing%*%this.flat%*!%this.push%">
+		<source name="tabs" left="0" top="51" right="104" bottom="102"/>
+		<slice left="3" top="54" right="101" bottom="99"/>
+		<rect>
+			<bottom num="1" height="1"/>
+		</rect>
+	</background>
+
+	<background transparent="1" name="flat-typing" stretch="1" visible="%this.typing%*%this.flat%*!%this.push%">
+		<source name="tabs" left="0" top="0" right="104" bottom="51"/>
+		<slice left="3" top="3" right="101" bottom="48"/>
+		<rect>
+			<bottom num="1" height="1"/>
+		</rect>
+	</background>
+
+	<!-- Unselected Hover tab -->
+	<background transparent="1" type="over" stretch="1" visible="!%this.flash%*!%this.typing%*!%this.push%">
+		<source name="vtabs-theme" left="104" top="102" right="208" bottom="153"/>
+		<slice left="107" top="105" right="205" bottom="150"/>
+		<rect>
+			<bottom num="1" height="1"/>
+		</rect>
+	</background>
+
+	<background transparent="1" name="over-flash" stretch="1" visible="%this.flash%*!%this.typing%*%this.hover%*!%this.push%">
+		<source name="vtabs-theme" left="104" top="51" right="208" bottom="102"/>
+		<slice left="107" top="54" right="205" bottom="99"/>
+		<rect>
+			<bottom num="1" height="1"/>
+		</rect>
+	</background>
+
+	<background transparent="1" name="over-typing" stretch="1" visible="%this.typing%*%this.hover%*!%this.push%">
+		<source name="vtabs-theme" left="104" top="0" right="208" bottom="51"/>
+		<slice left="107" top="3" right="205" bottom="48"/>
+		<rect>
+			<bottom num="1" height="1"/>
+		</rect>
+	</background>
+
+	<icontrol source="menubar-switcher" name="icon" visible="1">
+		<rect>
+			<left num="4" width="0"/>
+			<top num="9" height="0"/>
+			<right num="16" width="0"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+

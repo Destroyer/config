@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesQQ '
+	<bitmap	name="bmpIconServices-QQ-Mini"		file="../../stixe/icons/Win8-Services/QQ/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-QQ-Tiny"		file="../../stixe/icons/Win8-Services/QQ/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-QQ"		file="../../stixe/icons/Win8-Services/QQ/Services-Helper.png"/>
+	<taskbaricon	name="icoQQ"				file="../../stixe/icons/Win8-Services/QQ/QQ.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-QQ-Tiny '
+	<icon type=	"QQ-online"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"QQ-offline"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"QQ-away"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"QQ-invisible"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-QQ-16 '
+	<background name="QQ" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="QQ" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="QQ" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="QQ" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-QQ-48 '
+'>
+
+<!ENTITY % iclToolbarServices-QQ-Mini '
+	<background name="QQ" type=	"online"	state="normal"><source name="bmpIconServices-QQ-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="QQ" type=	"mixed"		state="normal"><source name="bmpIconServices-QQ-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="QQ" type=	"offline"	state="normal"><source name="bmpIconServices-QQ-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="QQ" type=	"away"	state="normal"><source name="bmpIconServices-QQ-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="QQ" type=	"invisible"	state="normal"><source name="bmpIconServices-QQ-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-QQ-Tiny '
+	<background name="QQ" type=	"online"	state="normal"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="QQ" type=	"offline"	state="normal"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="QQ" type=	"away"	state="normal"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="QQ" type=	"invisible"	state="normal"><source name="bmpIconServices-QQ-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-QQ '
+	<background name="QQ-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="QQ-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="QQ-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="QQ-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-QQ '
+	<icon name="QQ" state="all"><source name="bmpIconServicesHelper-QQ" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

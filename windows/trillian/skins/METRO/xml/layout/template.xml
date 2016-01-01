@@ -1,0 +1,40 @@
+<!-- Template window -->
+<component name="template" minx="200">
+	&resize;
+	&windowborder;
+	&minmaxclosehide;
+
+	<icontrol source="templateTopic" name="windowName" visible="1">
+		<rect>
+			<left num="8" width="0"/>
+			<top num="7" height="0"/>
+			<bottom num="22" height="0"/>
+		</rect>
+	</icontrol>
+
+	<frame source="template-body" name="template-body">
+		<rect>
+			<left num="1" width="0"/>
+			<top num="26" height="0"/>
+			<right num="1" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</frame>
+
+</component>
+
+<component name="template-body">
+
+	<color source="background"/>
+
+	<icontrol source="boundary" name="boundary" visible="1"> 
+		<rect>
+			<left num="1" width="0"/>
+			<top num="1" height="0"/>
+			<right num="1" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+

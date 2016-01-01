@@ -1,0 +1,268 @@
+<component name="tooltipbody" 
+	width="234 + ((%items.desired_height%&gt;0)*100)" 
+	maxy="%screen.height%/2 + 6 + ((10 + min(96, %icon.desired_height%))) + 17 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" 
+	height="14 + ((10 + min(96, %icon.desired_height%))) + 17 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18)) + min(max(%info-list.desired_height%,%items.desired_height%),%screen.height%/2)" 
+	left="((%screen.width%-(%parent.window.left%+%parent.window.width%)) &gt;= (230 +  ((%items.desired_height%&gt;0)*100))) * (%parent.window.left%+%parent.window.width%-6) + ((%screen.width%-(%parent.window.left%+%parent.window.width%)) &lt; (230 + ((%items.desired_height%&gt;0)*100))) * (%parent.window.left% - 228 -  ((%items.desired_height%&gt;0)*100))" 
+	top="(((%screen.height% - %parent.window.top% - %list-item.top%) &lt; min(max(%info-list.desired_height%,%items.desired_height%),%screen.height%/2)) * (%screen.height% - (6 + ((10 + min(96, %icon.desired_height%))) + 17 + %title.desired_height% + %subtitle.desired_height% + min(max(%info-list.desired_height%,%items.desired_height%),%screen.height%/2)))) + (((%parent.window.top% + %list-item.top%) &gt;= ((10 + min(96, %icon.desired_height%))) + 17 + %title.desired_height% + %subtitle.desired_height%) * ((%screen.height% - %parent.window.top% - %list-item.top%) &gt;= min(max(%info-list.desired_height%,%items.desired_height%),%screen.height%/2)) * (%parent.window.top% + %list-item.top% - ((10 + min(96, %icon.desired_height%))) + 17 + %title.desired_height% + %subtitle.desired_height%))">
+
+	<mainregion usebitmap="1" usedefaultcolors="1"/>
+	<background transparent="1" middle="1" visible="%window.alpha%" stretch="0">
+		<source name="bitmap-window-notifier" left="0" top="0" right="270" bottom="91"/>
+		<slice left="11" top="12" right="259" bottom="80"/>
+	</background>
+
+	<background transparent="1" middle="1" visible="!%window.alpha%" stretch="0">
+		<source name="bitmap-window-notifier-non-alpha" left="0" top="0" right="270" bottom="91"/>
+		<slice left="11" top="12" right="259" bottom="80"/>
+	</background>
+
+<!-- ICONTROLS -->
+
+	<!-- Background for the name/info area -->
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="skin-asset" left="0" top="0" right="59" bottom="63"/> <!-- theme -->
+		<slice left="2" top="2" right="57" bottom="60"/>
+		<rect>
+			<left num="6" width="0"/>
+			<top num="6" height="0"/>
+			<right num="6" width="1"/>
+			<bottom num="((20 + min(96, %icon.desired_height%))) + 8 + %title.desired_height% + %subtitle.desired_height%" height="0"/>
+		</rect>
+	</background>
+
+	<!-- Avatar frame background image -->
+	<background transparent="1" middle="1" stretch="1" visible="(!%away-edit.editing%)"> 
+		<source name="skin-asset" left="0" top="115" right="36" bottom="151"/> <!-- no theme -->
+		<slice left="4" top="119" right="32" bottom="147"/>
+		<rect>
+			<left num="115 + ((%items.desired_height%&gt;0)*50)- (min(96, %icon.desired_width%)/2)" width="0"/>
+			<right num="119 + ((%items.desired_height%&gt;0)*50)+ (min(96, %icon.desired_width%)/2)" width="0"/>
+			<top num="18" height="0"/>
+			<bottom num="22 + min(96, %icon.desired_height%)" height="0"/>
+		</rect>
+
+	</background>
+
+	<icontrol source="theirbuddyicon" name="icon" visible="1">
+		<rect>
+			<left num="117 + ((%items.desired_height%&gt;0)*50)- (min(96, %icon.desired_width%)/2)" width="0"/>
+			<right num="117+ ((%items.desired_height%&gt;0)*50) + (min(96, %icon.desired_width%)/2)" width="0"/>
+			<top num="20" height="0"/>
+			<bottom num="20 + min(96, %icon.desired_height%)" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="theirbigname" name="title">
+		<rect><left num="15" width="0"/><right num="15" width="1"/>
+		<top num="((20 + min(96, %icon.desired_height%))) + 2" height="0"/>
+		<bottom num="((20 + min(96, %icon.desired_height%))) + 2 + %title.desired_height%" height="0"/></rect>
+	</icontrol>
+
+	<icontrol source="theirbigstatus" name="subtitle">
+		<rect><left num="22" width="0"/><right num="22" width="1"/>
+			<top num="((20 + min(96, %icon.desired_height%))) + 4 + %title.desired_height%" height="0"/>
+			<bottom num="((20 + min(96, %icon.desired_height%))) + 4 + %title.desired_height% + %subtitle.desired_height%" height="0"/>
+		</rect>
+	</icontrol>
+	
+	<icontrol source="tooltipmenu" name="menu">
+		<rect>
+			<top num="((20 + min(96, %icon.desired_height%))) + 16 + %title.desired_height% + %subtitle.desired_height%" height="0"/>
+			<bottom num="((20 + min(96, %icon.desired_height%))) + 16 + %title.desired_height% + %subtitle.desired_height% + %menu.desired_height%" height="0"/>
+			<left num="6" width="0"/>
+			<right num="6" width="1"/>
+		</rect>
+	</icontrol>
+
+	<background middle="1" stretch="1" visible="%menu.has_items%">
+		<source name="baralerts-asset" left="0" top="200" right="135" bottom="233"/> <!-- theme -->
+		<slice left="2" top="207" right="133" bottom="230"/>
+		<rect>
+			<top num="((20 + min(96, %icon.desired_height%))) + 13 + %title.desired_height% + %subtitle.desired_height%" height="0"/>
+			<bottom num="((20 + min(96, %icon.desired_height%))) + 19 + %title.desired_height% + %subtitle.desired_height% + %menu.desired_height%" height="0"/>
+			<left num="12" width="0"/>
+			<right num="12" width="1"/>
+		</rect>
+	</background>
+
+	<icontrol source="infolist-framebar" name="info-list">
+		<rect>
+			<top num="((20 + min(96, %icon.desired_height%))) + 8 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+			<left num="6" width="0"/>
+			<right num="24" width="1"/>
+			<bottom num="6" height="1"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="social-item-list" name="items" visible="%items.desired_height%&gt;0">
+		<rect>
+			<top num="((20 + min(96, %icon.desired_height%))) + 8 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+			<left num="6" width="0"/>
+			<right num="24" width="1"/>
+			<bottom num="6" height="1"/>
+		</rect>
+	</icontrol>
+	
+	<!-- The Scrollup Button -->
+	<icontrol source="floating-scrollup" name="info-list-scrollup" visible="%info-list.scrollbar_needed%"> 
+		<rect>
+			<left num="16+6" width="1"/>
+			<top num="((20 + min(96, %icon.desired_height%))) + 8 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+			<right num="6" width="1"/>
+			<bottom num="((20 + min(96, %icon.desired_height%))) + 24 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrollbar -->
+	<icontrol source="floating-scrollbar" name="info-list-scrollbar" visible="%info-list.scrollbar_needed%">
+		<rect>
+			<left num="16+6" width="1"/>
+			<top num="((20 + min(96, %icon.desired_height%))) + 25 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+			<right num="6" width="1"/>
+			<bottom num="22+1" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrolldown Button -->
+	<icontrol source="floating-scrolldown" name="info-list-scrolldown" visible="%info-list.scrollbar_needed%">
+		<rect>
+			<left num="16+6" width="1"/>
+			<top num="21+1" height="1"/>
+			<right num="6" width="1"/>
+			<bottom num="5+1" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrollup Button -->
+	<icontrol source="floating-scrollup" name="items-scrollup" visible="%items.scrollbar_needed%"> 
+		<rect>
+			<left num="16+6" width="1"/>
+			<top num="((20 + min(96, %icon.desired_height%))) + 8 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+			<right num="6" width="1"/>
+			<bottom num="((20 + min(96, %icon.desired_height%))) + 24 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrollbar -->
+	<icontrol source="floating-scrollbar" name="items-scrollbar" visible="%items.scrollbar_needed%">
+		<rect>
+			<left num="16+6" width="1"/>
+			<top num="((20 + min(96, %icon.desired_height%))) + 25 + %title.desired_height% + %subtitle.desired_height% + (%menu.has_items%*(%menu.desired_height% + 18))" height="0"/>
+			<right num="6" width="1"/>
+			<bottom num="22+1" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrolldown Button -->
+	<icontrol source="floating-scrolldown" name="items-scrolldown" visible="%items.scrollbar_needed%">
+		<rect>
+			<left num="16+6" width="1"/>
+			<top num="21+1" height="1"/>
+			<right num="6" width="1"/>
+			<bottom num="5+1" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="infolist-header" defaulty="22">
+	<icontrol source="tooltipinfolistheader" name="header">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="infolist-typevalue" defaulty="4 + max(%this.type.desired_height%, %this.value.desired_height%+(%this.line2.hasText%*(2+%this.line2.desired_height%)))">
+	<icontrol source="topicinfolistheader" name="type"> <!-- Last Tweets -->
+		<rect>
+			<left num="6" width="0"/>
+			<right num="65" width="0"/>
+			<top num="3" height="0"/>
+			<bottom num="3+%this.type.desired_height%" height="0"/>
+		</rect>
+	</icontrol>
+	<icontrol source="tooltipinfolistvalue" name="value"> <!-- the actual data -->
+		<rect>
+			<left num="6 + (65*%this.type.hasText%)" width="0"/>
+			<right num="10" width="1"/>
+			<top num="2" height="0"/>
+			<bottom num="2+%this.value.desired_height%" height="0"/>
+		</rect>
+	</icontrol>
+	<icontrol source="topicSubtitle" name="line2"> <!-- when it was tweeted -->
+		<rect>
+			<left num="6 + (65*%this.type.hasText%)" width="0"/>
+			<top num="2 + %this.line2.desired_height%" height="1"/>
+			<bottom num="2" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="infolist-longtypevalue" defaulty="4 + (%this.type.hasText% * (2+%this.type.desired_height%)) + (%this.value.hasText% * (2+%this.value.desired_height%)) + ((%this.line2.desired_height% + 2) * %this.line2.hasText%)">
+
+<!-- header that appears once maybe? -->
+	<icontrol source="tooltipinfolistheader-long" name="type">
+		<rect>
+			<left num="10" width="0"/>
+			<right num="10" width="1"/>
+			<top num="2" height="0"/>
+			<bottom num="2+%this.type.desired_height%" height="0"/>
+		</rect>
+	</icontrol>
+
+<!-- message icon -->
+	<icontrol source="swcInfoList" name="item-icon">
+		<rect>
+			<left num="5" width="0"/>
+			<top num="6 + %this.type.hasText% * (2+%this.type.desired_height%)" height="0"/>
+			<right num="5+ %this.item-icon.desired_width%" width="0"/>
+			<bottom num="6 + %this.type.hasText% * (2+%this.type.desired_height%) + %this.item-icon.desired_height%" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- actual info -->
+	<icontrol source="tooltipinfolistvalue" name="value"> <!-- The actual tweet -->
+		<rect>
+			<left num="5 + %this.item-icon.desired_width% + 5" width="0"/>
+			<right num="10" width="1"/>
+			<top num="2+%this.type.desired_height%+2" height="0"/>
+			<bottom num="2+%this.line2.desired_height%+2" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- the date at the bottom -->
+	<icontrol source="topicSubtitle" name="line2"> <!-- when it was tweeted -->
+		<rect>
+			<left num="5 + %this.item-icon.desired_width% + 5" width="0"/>
+			<top num="2 + %this.line2.desired_height%" height="1"/>
+			<bottom num="2" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+	<prefs>
+<control name="theirbigname" type="topic">
+	<font name="default" source="segoeui" type="Segoe UI" size="12" bold="0" italic="0"/>
+	<font name="normal" source="segoeui" type="Segoe UI" size="12" bold="0" italic="0"/>
+	<color name="default-fore" source="blue47"/>
+	<color name="normal-fore" source="blue47"/>
+	<settings name="alignment" value="center"/>
+		<settings name="max-lines" value="2"/><settings name="line-spacing" value="-2"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+
+<control name="theirbigstatus" type="topic">
+	<font name="default" source="segoeui" type="Segoe UI" size="9" bold="0" italic="0"/> <!-- normal mode -->
+	<font name="normal" source="segoeui" type="Segoe UI" size="9" bold="0" italic="0"/> <!-- edit mode -->
+	<color name="default-fore" source="grey100"/>
+	<color name="normal-fore" source="grey100"/>
+	<color name="url-fore" source="url"/>
+	<settings name="alignment" value="center"/>
+	<settings name="vertical-alignment" value="center"/>
+	<!--	<settings name="max-lines" value="2"/> 
+	<settings name="line-spacing" value="-1"/> -->
+	<settings name="auto-scroll" value="no"/>
+</control>
+	</prefs>	

@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesSAMETIME '
+	<bitmap	name="bmpIconServices-SAMETIME-Mini"		file="../../stixe/icons/Win8-Services/SAMETIME/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-SAMETIME-Tiny"		file="../../stixe/icons/Win8-Services/SAMETIME/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-SAMETIME"		file="../../stixe/icons/Win8-Services/SAMETIME/Services-Helper.png"/>
+	<taskbaricon	name="icoSAMETIME"				file="../../stixe/icons/Win8-Services/SAMETIME/SAMETIME.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-SAMETIME-Tiny '
+	<icon type=	"SAMETIME-online"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"SAMETIME-offline"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"SAMETIME-away"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"SAMETIME-invisible"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-SAMETIME-16 '
+	<background name="SAMETIME" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="SAMETIME" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="SAMETIME" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="SAMETIME" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-SAMETIME-48 '
+'>
+
+<!ENTITY % iclToolbarServices-SAMETIME-Mini '
+	<background name="SAMETIME" type=	"online"	state="normal"><source name="bmpIconServices-SAMETIME-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="SAMETIME" type=	"mixed"		state="normal"><source name="bmpIconServices-SAMETIME-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="SAMETIME" type=	"offline"	state="normal"><source name="bmpIconServices-SAMETIME-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="SAMETIME" type=	"away"	state="normal"><source name="bmpIconServices-SAMETIME-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="SAMETIME" type=	"invisible"	state="normal"><source name="bmpIconServices-SAMETIME-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-SAMETIME-Tiny '
+	<background name="SAMETIME" type=	"online"	state="normal"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="SAMETIME" type=	"offline"	state="normal"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="SAMETIME" type=	"away"	state="normal"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="SAMETIME" type=	"invisible"	state="normal"><source name="bmpIconServices-SAMETIME-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-SAMETIME '
+	<background name="SAMETIME-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="SAMETIME-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="SAMETIME-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="SAMETIME-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-SAMETIME '
+	<icon name="SAMETIME" state="all"><source name="bmpIconServicesHelper-SAMETIME" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

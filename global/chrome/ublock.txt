@@ -1,0 +1,96 @@
+{
+  "timeStamp": 1451669117919,
+  "version": "1.5.2",
+  "userSettings": {
+    "advancedUserEnabled": false,
+    "autoUpdate": true,
+    "cloudStorageEnabled": false,
+    "collapseBlocked": true,
+    "colorBlindFriendly": false,
+    "contextMenuEnabled": true,
+    "dynamicFilteringEnabled": true,
+    "experimentalEnabled": false,
+    "externalLists": "! Examples:\n! https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt",
+    "firewallPaneMinimized": true,
+    "hyperlinkAuditingDisabled": true,
+    "parseAllABPHideFilters": true,
+    "prefetchingDisabled": true,
+    "requestLogMaxEntries": 1000,
+    "showIconBadge": true,
+    "tooltipsDisabled": false,
+    "webrtcIPAddressHidden": false
+  },
+  "filterLists": {
+    "assets/user/filters.txt": {
+      "group": "default",
+      "off": false,
+      "entryCount": 7,
+      "entryUsedCount": 7
+    },
+    "assets/ublock/experimental.txt": {
+      "title": "uBlock filters – Experimental",
+      "group": "default",
+      "off": true,
+      "supportURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "supportName": "github.com"
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
+      "title": "EasyList",
+      "group": "ads",
+      "homeURL": "https://easylist-downloads.adblockplus.org/easylist.txt",
+      "supportURL": "https://forums.lanik.us/",
+      "off": false,
+      "entryCount": 60194,
+      "entryUsedCount": 60188
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
+      "title": "EasyPrivacy",
+      "group": "privacy",
+      "homeURL": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+      "supportURL": "https://forums.lanik.us/",
+      "off": false,
+      "entryCount": 10925,
+      "entryUsedCount": 10924
+    },
+    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
+      "title": "Malware domains",
+      "group": "malware",
+      "homeURL": "http://malwaredomains.lehigh.edu/files/justdomains",
+      "supportURL": "http://www.malwaredomains.com/",
+      "off": false,
+      "entryCount": 18254,
+      "entryUsedCount": 18157
+    },
+    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
+      "title": "Peter Lowe’s Ad server list",
+      "group": "ads",
+      "homeURL": "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
+      "supportURL": "http://pgl.yoyo.org/adservers/",
+      "off": false,
+      "entryCount": 1,
+      "entryUsedCount": 1
+    },
+    "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt": {
+      "off": false,
+      "title": "CZE, SVK: EasyList Czech and Slovak",
+      "group": "regions",
+      "supportURL": "https://github.com/tomasko126/easylistczechandslovak",
+      "entryCount": 1034,
+      "entryUsedCount": 1034
+    },
+    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
+      "title": "Malware Domain List",
+      "group": "malware",
+      "homeURL": "https://www.malwaredomainlist.com/hostslist/hosts.txt",
+      "off": false,
+      "entryCount": 1564,
+      "entryUsedCount": 1564
+    }
+  },
+  "netWhitelist": "amd.com\narstechnica.com\nbehind-the-scene\ncnews.cz\ncpubenchmark.net\ndocs.google.com\nfio.cz\nforbes.com\ngithub.com\nchrome-extension-scheme\nchrome-scheme\nloopconversation.about-scheme\nmapy.cz\nopera-scheme\nplay.google.com\nroot.cz\nvcklan.cz\nwiki.ubuntu.cz",
+  "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "",
+  "userFilters": "! 3. 9. 2015 12:21:10 http://www.zive.cz/\nwww.zive.cz###page-hub-wrapper\n\n! 3. 9. 2015 12:21:58 http://www.zive.cz/\nwww.zive.cz###prolinkftr\n\n! 3. 9. 2015 17:50:37 http://www.zive.cz/\nwww.zive.cz##.bx-adv-label\n\n! 3. 9. 2015 17:52:07 http://www.zive.cz/\nwww.zive.cz###prolinkhdr\n\n! 10. 10. 2015 20:43:20 http://ekonomika.idnes.cz/\n||data.idnes.cz/nocache/DPP/zuzana/reality.htm\n"
+}

@@ -1,0 +1,66 @@
+
+<!ENTITY ctrlFilesJABBER '
+	<bitmap	name="bmpIconServices-JABBER-Mini"		file="../../stixe/icons/Win8-Services/JABBER/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-JABBER-Tiny"		file="../../stixe/icons/Win8-Services/JABBER/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-JABBER"		file="../../stixe/icons/Win8-Services/JABBER/Services-Helper.png"/>
+	<taskbaricon	name="icoJABBER"				file="../../stixe/icons/Win8-Services/JABBER/JABBER.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-JABBER-Tiny '
+	<icon type=	"JABBER-online"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"JABBER-free for chat"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"JABBER-offline"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"JABBER-away"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"JABBER-extended away"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"JABBER-do not disturb"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"JABBER-invisible"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-JABBER-16 '
+	<background name="JABBER" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="JABBER" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="JABBER" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="JABBER" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="JABBER" type=	"extended away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="JABBER" type=	"do not disturb"><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="JABBER" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	112	" bottom="	128	"/></background>
+	<background name="JABBER" type=	"group-online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	128	" bottom="	144	"/></background>
+	<background name="JABBER" type=	"group-offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	144	" bottom="	160	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-JABBER-48 '
+'>
+
+<!ENTITY % iclToolbarServices-JABBER-Mini '
+	<background name="JABBER" type=	"online"	state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="JABBER" type=	"free for chat"	state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="JABBER" type=	"mixed"		state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="JABBER" type=	"offline"	state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="JABBER" type=	"away"	state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="JABBER" type=	"extended away"	state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="JABBER" type=	"do not disturb"	state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="JABBER" type=	"invisible"	state="normal"><source name="bmpIconServices-JABBER-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-JABBER-Tiny '
+	<background name="JABBER" type=	"online"	state="normal"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="JABBER" type=	"free for chat"	state="normal"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="JABBER" type=	"offline"	state="normal"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="JABBER" type=	"away"	state="normal"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="JABBER" type=	"extended away"	state="normal"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="JABBER" type=	"do not disturb"	state="normal"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="JABBER" type=	"invisible"	state="normal"><source name="bmpIconServices-JABBER-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-JABBER '
+	<background name="JABBER-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="JABBER-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="JABBER-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="JABBER-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-JABBER '
+	<icon name="JABBER" state="all"><source name="bmpIconServicesHelper-JABBER" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

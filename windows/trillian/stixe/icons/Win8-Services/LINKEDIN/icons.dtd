@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesLINKEDIN '
+	<bitmap	name="bmpIconServices-LINKEDIN-Mini"		file="../../stixe/icons/Win8-Services/LINKEDIN/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-LINKEDIN-Tiny"		file="../../stixe/icons/Win8-Services/LINKEDIN/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-LINKEDIN"		file="../../stixe/icons/Win8-Services/LINKEDIN/Services-Helper.png"/>
+	<taskbaricon	name="icoLINKEDIN"				file="../../stixe/icons/Win8-Services/LINKEDIN/LINKEDIN.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-LINKEDIN-Tiny '
+	<icon type=	"LINKEDIN-online"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"LINKEDIN-offline"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"LINKEDIN-away"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"LINKEDIN-invisible"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-LINKEDIN-16 '
+	<background name="LINKEDIN" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="LINKEDIN" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="LINKEDIN" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="LINKEDIN" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-LINKEDIN-48 '
+'>
+
+<!ENTITY % iclToolbarServices-LINKEDIN-Mini '
+	<background name="LINKEDIN" type=	"online"	state="normal"><source name="bmpIconServices-LINKEDIN-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="LINKEDIN" type=	"mixed"		state="normal"><source name="bmpIconServices-LINKEDIN-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="LINKEDIN" type=	"offline"	state="normal"><source name="bmpIconServices-LINKEDIN-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="LINKEDIN" type=	"away"	state="normal"><source name="bmpIconServices-LINKEDIN-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="LINKEDIN" type=	"invisible"	state="normal"><source name="bmpIconServices-LINKEDIN-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-LINKEDIN-Tiny '
+	<background name="LINKEDIN" type=	"online"	state="normal"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="LINKEDIN" type=	"offline"	state="normal"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="LINKEDIN" type=	"away"	state="normal"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="LINKEDIN" type=	"invisible"	state="normal"><source name="bmpIconServices-LINKEDIN-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-LINKEDIN '
+	<background name="LINKEDIN-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="LINKEDIN-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="LINKEDIN-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="LINKEDIN-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-LINKEDIN '
+	<icon name="LINKEDIN" state="all"><source name="bmpIconServicesHelper-LINKEDIN" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesXFIRE '
+	<bitmap	name="bmpIconServices-XFIRE-Mini"		file="../../stixe/icons/Win8-Services/XFIRE/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-XFIRE-Tiny"		file="../../stixe/icons/Win8-Services/XFIRE/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-XFIRE"		file="../../stixe/icons/Win8-Services/XFIRE/Services-Helper.png"/>
+	<taskbaricon	name="icoXFIRE"				file="../../stixe/icons/Win8-Services/XFIRE/XFIRE.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-XFIRE-Tiny '
+	<icon type=	"XFIRE-online"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"XFIRE-offline"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"XFIRE-away"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"XFIRE-invisible"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-XFIRE-16 '
+	<background name="XFIRE" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="XFIRE" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="XFIRE" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="XFIRE" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-XFIRE-48 '
+'>
+
+<!ENTITY % iclToolbarServices-XFIRE-Mini '
+	<background name="XFIRE" type=	"online"	state="normal"><source name="bmpIconServices-XFIRE-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="XFIRE" type=	"mixed"		state="normal"><source name="bmpIconServices-XFIRE-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="XFIRE" type=	"offline"	state="normal"><source name="bmpIconServices-XFIRE-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="XFIRE" type=	"away"	state="normal"><source name="bmpIconServices-XFIRE-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="XFIRE" type=	"invisible"	state="normal"><source name="bmpIconServices-XFIRE-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-XFIRE-Tiny '
+	<background name="XFIRE" type=	"online"	state="normal"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="XFIRE" type=	"offline"	state="normal"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="XFIRE" type=	"away"	state="normal"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="XFIRE" type=	"invisible"	state="normal"><source name="bmpIconServices-XFIRE-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-XFIRE '
+	<background name="XFIRE-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="XFIRE-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="XFIRE-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="XFIRE-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-XFIRE '
+	<icon name="XFIRE" state="all"><source name="bmpIconServicesHelper-XFIRE" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

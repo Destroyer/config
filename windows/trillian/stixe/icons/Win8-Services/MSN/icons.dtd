@@ -1,0 +1,75 @@
+
+<!ENTITY ctrlFilesMSN '
+	<bitmap	name="bmpIconServices-MSN-Mini"		file="../../stixe/icons/Win8-Services/MSN/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-MSN-Tiny"		file="../../stixe/icons/Win8-Services/MSN/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-MSN"		file="../../stixe/icons/Win8-Services/MSN/Services-Helper.png"/>
+	<taskbaricon	name="icoMSN"				file="../../stixe/icons/Win8-Services/MSN/MSN.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-MSN-Tiny '
+	<icon type=	"MSN-online"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"MSN-offline"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"MSN-away"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"MSN-be right back"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"MSN-idle"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"MSN-busy"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"MSN-on the phone"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"MSN-out to lunch"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"MSN-invisible"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-MSN-16 '
+	<background name="MSN" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="MSN" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="MSN" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"be right back"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"idle"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"on the phone"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"out to lunch"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="MSN" type=	"busy"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="MSN" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	112	" bottom="	128	"/></background>
+	<background name="MSN" type=	"group-online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	128	" bottom="	144	"/></background>
+	<background name="MSN" type=	"group-offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	144	" bottom="	160	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-MSN-48 '
+'>
+
+<!ENTITY % iclToolbarServices-MSN-Mini '
+	<background name="MSN" type=	"online"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="MSN" type=	"mixed"		state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="MSN" type=	"offline"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="MSN" type=	"away"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="MSN" type=	"idle"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="MSN" type=	"be right back"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="MSN" type=	"busy"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="MSN" type=	"on the phone"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="MSN" type=	"out to lunch"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="MSN" type=	"invisible"	state="normal"><source name="bmpIconServices-MSN-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-MSN-Tiny '
+	<background name="MSN" type=	"online"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="MSN" type=	"offline"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="MSN" type=	"away"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"idle"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"be right back"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"busy"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"on the phone"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"out to lunch"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="MSN" type=	"invisible"	state="normal"><source name="bmpIconServices-MSN-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-MSN '
+	<background name="MSN-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="MSN-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="MSN-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="MSN-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-MSN '
+	<icon name="MSN" state="all"><source name="bmpIconServicesHelper-MSN" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

@@ -1,0 +1,88 @@
+
+<component name="channel-untabbed" minx="301" miny="240" defaultx="415" defaulty="520">
+	&resize;
+	&windowborder;
+	&minmaxclosehide;
+
+	<icontrol source="avatar-switcher" name="buddy-icon" visible="1">
+		<rect>
+			<left num="8" width="0"/>
+			<top num="6" height="0"/>
+			<right num="24" width="0"/>
+			<bottom num="22" height="0"/>
+		</rect>
+	</icontrol>
+	
+	<icontrol source="topic-topic" name="channel" visible="%message.topic.capable%*!%channel-edit.focus%*!%window.tabbed%">
+		<rect>
+			<left num="28" width="0"/>
+			<top num="6" height="0"/>
+			<right num="(%channel.desired_width%&gt;%window.width%-100)*(%window.width%-100)+
+				    (%channel.desired_width%&lt;=%window.width%-100)*(28 + %channel.desired_width%)" width="0"/>
+			<bottom num="24" height="0"/>
+		</rect>
+	</icontrol>
+
+	<background transparent="1" stretch="1" middle="1" visible="(%channel-edit.focus%)*!%window.tabbed%">
+		<source name="textboxes-asset" left="0" top="60" right="161" bottom="84"/>
+		<slice left="3" top="63" right="157" bottom="79"/>
+		<rect>
+			<left num="24" width="0"/>
+			<top num="5" height="0"/>
+			<right num="137" width="1"/>
+			<bottom num="26" height="0"/>
+		</rect>
+	</background>
+
+	<icontrol source="yourname" name="channel-edit" visible="(%channel-edit.focus%)*!%window.tabbed%">
+		<rect>
+			<left num="28" width="0"/>
+			<top num="6" height="0"/>
+			<right num="142" width="1"/>
+			<bottom num="24" height="0"/>
+		</rect>
+	</icontrol>
+	
+	<icontrol source="msg-window-status" name="topic" visible="%message.topic.capable%*!%topic-edit.focus%*!%channel-edit.focus%*!%window.tabbed%">
+		<rect>
+			<left num="(%channel.desired_width%&gt;%window.width%-100)*(%window.width%-95)+
+				    (%channel.desired_width%&lt;=%window.width%-100)*(28 + %channel.desired_width% + 5)" width="0"/>
+			<top num="6" height="0"/>
+			<right num="137" width="1"/>
+			<bottom num="24" height="0"/>
+		</rect>
+	</icontrol>
+
+	<background transparent="1" stretch="1" middle="1" visible="(%topic-edit.focus%)*!%window.tabbed%">
+		<source name="textboxes-asset" left="0" top="60" right="161" bottom="84"/>
+		<slice left="3" top="63" right="157" bottom="79"/>
+		<rect>
+			<left num="(%channel.desired_width%&gt;%window.width%-100)*(%window.width%-95)+
+				    (%channel.desired_width%&lt;=%window.width%-100)*(27 + %channel.desired_width% + 5) - 3" width="0"/>
+			<top num="5" height="0"/>
+			<right num="137" width="1"/>
+			<bottom num="26" height="0"/>
+		</rect>
+	</background>
+
+	<icontrol source="yourname" name="topic-edit" visible="(%topic-edit.focus%)*!%window.tabbed%">
+		<rect>
+			<left num="(%channel.desired_width%&gt;%window.width%-100)*(%window.width%-95)+
+				    (%channel.desired_width%&lt;=%window.width%-100)*(27 + %channel.desired_width% + 6)" width="0"/>
+			<top num="6" height="0"/>
+			<right num="142" width="1"/>
+			<bottom num="24" height="0"/>
+		</rect>
+	</icontrol>	
+	
+	<frame source="channel" name="channel" visible="1">
+		<rect>
+			<left num="1" width="0"/>
+			<top num="26" height="0"/>
+			<right num="1" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</frame>
+</component>
+
+

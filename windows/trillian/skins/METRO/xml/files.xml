@@ -1,0 +1,275 @@
+<!-- Bitmaps -->
+	<bitmap name="bitmap-window" file="images/window.png" filter_source="hueshift"/>
+	<bitmap name="bitmap-window-notifier" file="images/notifier-window.png"  filter_source="hueshift"/>
+	<bitmap name="bitmap-window-notifier-blur" file="images/notifier-window-blur.png" />
+	<bitmap name="bitmap-window-notifier-non-alpha" file="images/notifier-window-non-alpha.png"  filter_source="hueshift"/>
+	<bitmap name="chatview-preview" file="images/chatview.png" />
+	<bitmap name="bitmap-text-typing" file="images/typing-animated.gif"/>
+	<bitmap name="vtabs" file="images/vtabs.png"  filter_source="themefix"/>
+	<bitmap name="vtabs-theme" file="images/vtabs.png" filter_source="hueshift"/>	
+	<bitmap name="sectionbutton" file="images/sectionbutton.png" filter_source="hueshift"/>
+	<bitmap name="social-groups" file="images/social-groups.png"/>	
+	<bitmap name="scrollbars-asset" file="images/scrollbars.png" filter_source="hueshift"/>
+	<bitmap name="general16-asset" file="images/general16.png" filter_source="hueshift"/>
+	<bitmap name="general16-asset-notheme" file="images/general16.png"/>
+	<bitmap name="general12-asset" file="images/general12.png"/>
+	<bitmap name="general12-asset-theme" file="images/general12.png" filter_source="hueshift"/>
+	<bitmap name="head96" file="images/head96.png"/>
+	<bitmap name="groupchat96" file="images/groupchat96.png"/>
+	<bitmap name="windowbuttons-asset" file="images/windowbuttons.png" filter_source="hueshift"/>
+	<bitmap name="av-asset" file="images/av.png" filter_source="hueshift"/>
+	<bitmap name="buttons-asset" file="images/buttons.png" filter_source="hueshift"/>
+	<bitmap name="textboxes-asset" file="images/textboxes.png" filter_source="hueshift"/>
+	<bitmap name="transfer-asset" file="images/filetransfer.png"/>
+	<bitmap name="skin-asset" file="images/skin-assets.png" filter_source="hueshift"/>
+	<bitmap name="baralerts-asset" file="images/bar-alerts.png" filter_source="hueshift"/>
+	<bitmap name="baralerts-asset-notheme" file="images/bar-alerts.png"/>
+	<bitmap name="bubbles" file="images/bubbles.png" filter_source="hueshift"/>
+	<bitmap	name="bmpDisplayViewPreview-bigbubbles8"		file="images/preview-BB8.png"/>	
+	<bitmap	name="bmpBB8Local"					file="images/BB8_Local.png" filter_source="hueshift"/>
+	<bitmap	name="bmpBB8Remote"				file="images/BB8_Remote.png"	filter_source="hueshift"/>
+	<bitmap	name="bmpBB8bubbles"				file="images/BB8_bubbles.png"	filter_source="hueshift"/>
+	<bitmap name="bmpBB8RemoteTyping"			file="images/BB8_Remotetyping.png"			filter_source="darkedit"/>
+	<bitmap name="bmpBB8LocalTyping"			file="images/BB8_Localtyping.png"	/>
+	
+<!-- Files from default skin -->
+	<bitmap name="icoAdd" file="../windows/images/add.ico"/>
+	<bitmap name="head16" file="../windows/images/head-16.png"/>
+	<bitmap name="head24" file="../windows/images/head-24.png"/>
+	<bitmap name="head32" file="../windows/images/head-32.png"/>
+	<bitmap name="head48" file="../windows/images/head-48.png"/>
+
+	<bitmap name="groupchat16" file="../windows/images/groupchat-16.png"/>
+	<bitmap name="groupchat24" file="../windows/images/groupchat-24.png"/>
+	<bitmap name="groupchat32" file="../windows/images/groupchat-32.png"/>
+	<bitmap name="groupchat48" file="../windows/images/groupchat-48.png"/>
+	<bitmap name="news16" file="../windows/images/news16.png"/>
+	<bitmap name="news24" file="../windows/images/news24.png"/>
+	<bitmap name="news32" file="../windows/images/news32.png"/>
+	<bitmap name="news48" file="../windows/images/news48.png"/>
+	<bitmap name="mail16" file="../windows/images/mail16.png"/>
+	<bitmap name="mail24" file="../windows/images/mail24.png"/>
+	<bitmap name="mail32" file="../windows/images/mail32.png"/>
+	<bitmap name="mail48" file="../windows/images/mail48.png"/>
+	<bitmap name="maps16" file="../windows/images/maps16.png"/>
+	<bitmap name="maps24" file="../windows/images/maps24.png"/>
+	<bitmap name="maps32" file="../windows/images/maps32.png"/>
+	<bitmap name="maps48" file="../windows/images/maps48.png"/>
+	<bitmap name="loading" file="../windows/images/loading.png"/>
+	<bitmap name="error" file="../windows/images/error.png"/>
+
+	
+<!-- Colors  -->
+	<color name="white" red="255" green="255" blue="255"/> 
+	<color name="background" red="255" green="255" blue="255"/> 
+	<color name="black" red="0" green="0" blue="0"/> 
+	<color name="url" red="79" green="129" blue="189"/>
+	<color name="urltheme" red="79" green="129" blue="189" filter_source="hueshift"/> 
+	<color name="groupheader" red="27" green="62" blue="106" filter_source="hueshift"/> 
+	<color name="blue29" red="29" green="58" blue="87" filter_source="hueshift"/> 
+	<color name="blue34" red="34" green="43" blue="86" filter_source="hueshift"/> 
+	<color name="blue40" red="40" green="52" blue="76" filter_source="hueshift"/> 
+	<color name="blue46" red="47" green="74" blue="124" filter_source="hueshift"/> 
+	<color name="blue47" red="47" green="77" blue="111" filter_source="hueshift"/> 
+	<color name="blue49" red="49" green="52" blue="57" filter_source="hueshift"/> 
+	<color name="panelheader" red="59" green="70" blue="92" filter_source="hueshift"/>
+	<color name="blue76" red="76" green="109" blue="140" filter_source="hueshift"/>
+	<color name="grey50" red="50" green="50" blue="50"/>
+	<color name="grey70" red="70" green="70" blue="70"/>
+	<color name="grey100" red="100" green="100" blue="100"/>
+	<color name="grey140" red="140" green="140" blue="140"/>
+	<color name="seperator" red="242" green="242" blue="242"/>
+
+<!-- Fonts -->
+	<font name="segoeui" file="segoeui.ttf"/>
+
+	<theme name="default" description="Blue">
+		<filter name="hueshift">
+			<hue num="0"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="follow" description="Follow Windows">
+		<filter name="hueshift">
+			<hue num="%system.windows.hue%"/>
+			<saturation num="%system.windows.saturation%"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="red" description="Red">
+		<filter name="hueshift">
+			<hue num="150"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+		<filter name="themefix"><hue num="-160"/><saturation num="0"/><brightness num="0"/></filter>
+	</theme>
+		
+	<theme name="pink" description="Pink">
+		<filter name="hueshift">
+			<hue num="115"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="orange" description="Orange">
+		<filter name="hueshift">
+			<hue num="180"/>
+			<saturation num="20"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="yellow" description="Yellow">
+		<filter name="hueshift">
+			<hue num="-155"/>
+			<saturation num="10"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="olive" description="Olive">
+		<filter name="hueshift">
+			<hue num="-135"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+
+		</theme>
+
+	<theme name="lime" description="Lime">
+		<filter name="hueshift">
+			<hue num="-120"/>
+			<saturation num="-20"/>
+			<brightness num="0"/>
+		</filter>
+
+		</theme>
+		
+	<theme name="green" description="Green">
+		<filter name="hueshift">
+			<hue num="-90"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+
+		</theme>
+
+	<theme name="teal" description="Teal">
+		<filter name="hueshift">
+			<hue num="-45"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+
+		</theme>
+
+	<theme name="purple" description="Purple">
+		<filter name="hueshift">
+			<hue num="60"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+
+		</theme>
+
+	<theme name="platinum" description="Platinum">
+		<filter name="hueshift">
+			<hue num="0"/>
+			<saturation num="-100"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="darkblue" description="Dark Blue" visible="1">
+		&darkcolor;
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+	
+	<theme name="darkred" description="Dark Red">
+		&darkcolor;
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+		<filter name="hueshift"><hue num="150"/><saturation num="0"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="themefix"><hue num="-160"/><saturation num="0"/><brightness num="0"/></filter>
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+	</theme>
+		
+	<theme name="darkpink" description="Dark Pink">
+		&darkcolor;
+		<filter name="hueshift"><hue num="115"/><saturation num="0"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+
+	<theme name="darkorange" description="Dark Orange">
+		&darkcolor;
+		<filter name="hueshift"><hue num="180"/><saturation num="20"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+
+	<theme name="darkyellow" description="Dark Yellow">
+		&darkcolor;
+		<filter name="hueshift"><hue num="-155"/><saturation num="10"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+
+	<theme name="darkolive" description="Dark Olive">
+		&darkcolor;
+		<filter name="hueshift"><hue num="-135"/><saturation num="-50"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+
+	<theme name="darklime" description="Dark Lime">
+		&darkcolor;
+		<filter name="hueshift"><hue num="-120"/><saturation num="-20"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+		
+	<theme name="darkgreen" description="Dark Green">
+		&darkcolor;
+		<filter name="hueshift"><hue num="-90"/><saturation num="-50"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+
+	<theme name="darkteal" description="Dark Teal">
+		&darkcolor;
+		<filter name="hueshift"><hue num="-45"/><saturation num="-50"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+
+	<theme name="darkpurple" description="Dark Purple">
+		&darkcolor;
+		<filter name="hueshift"><hue num="60"/><saturation num="0"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+	<theme name="darkplatinum" description="Dark Platinum" visible="1">
+		&darkcolor;
+		<filter name="hueshift"><hue num="0"/><saturation num="-100"/><brightness num="0"/></filter>
+		<filter name="darkedit"><hue num="0"/><saturation num="100"/><brightness num="100"/></filter>		
+		<filter name="light1"><hue num="0"/><saturation num="0"/><brightness num="50"/></filter>		
+		<filter name="dark1"><hue num="0"/><saturation num="-100"/><brightness num="-82"/></filter>		
+	</theme>
+
+		

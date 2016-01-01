@@ -1,0 +1,102 @@
+
+<!ENTITY ctrlFilesWHATSAPP '
+	<bitmap	name="bmpIconServices-WHATSAPP-Mini"		file="../../stixe/icons/Win8-Services/WHATSAPP/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-WHATSAPP-Tiny"		file="../../stixe/icons/Win8-Services/WHATSAPP/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-WHATSAPP"		file="../../stixe/icons/Win8-Services/WHATSAPP/Services-Helper.png"/>
+	<taskbaricon	name="icoWHATSAPP"				file="../../stixe/icons/Win8-Services/WHATSAPP/Whatsapp.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-WHATSAPP-Tiny '
+	<icon type=	"WHATSAPP-online"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"WHATSAPP-offline"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"WHATSAPP-away"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-idle"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-custom"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-mobile"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-busy"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-not at home"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-not at my desk"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-not in the office"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-on vacation"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-on the phone"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-out to lunch"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-stepped out"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"WHATSAPP-invisible"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+	<icon type=	"WHATSAPP-webcam"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-WHATSAPP-16 '
+	<background name="WHATSAPP" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="WHATSAPP" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="WHATSAPP" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"idle"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"custom"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"not at home"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"not at my desk"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"not in the office"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"on vacation"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"on the phone"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"out to lunch"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"stepped out"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="WHATSAPP" type=	"busy"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="WHATSAPP" type=	"webcam"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="WHATSAPP" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	112	" bottom="	128	"/></background>
+	<background name="WHATSAPP" type=	"group-online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	128	" bottom="	144	"/></background>
+	<background name="WHATSAPP" type=	"group-offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	144	" bottom="	160	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-WHATSAPP-48 '
+'>
+
+<!ENTITY % iclToolbarServices-WHATSAPP-Mini '
+	<background name="WHATSAPP" type=	"online"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="WHATSAPP" type=	"mixed"		state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="WHATSAPP" type=	"offline"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="WHATSAPP" type=	"away"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"idle"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"custom"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"mobile"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"busy"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"not at home"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"not at my desk"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"not in the office"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"on vacation"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"on the phone"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"out to lunch"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"stepped out"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="WHATSAPP" type=	"invisible"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"webcam"	state="normal"><source name="bmpIconServices-WHATSAPP-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-WHATSAPP-Tiny '
+	<background name="WHATSAPP" type=	"online"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="WHATSAPP" type=	"offline"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="WHATSAPP" type=	"away"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"idle"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"custom"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"mobile"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"busy"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"not at home"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"not at my desk"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"not in the office"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"on vacation"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"out to lunch"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"stepped out"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="WHATSAPP" type=	"invisible"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="WHATSAPP" type=	"webcam"	state="normal"><source name="bmpIconServices-WHATSAPP-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-WHATSAPP '
+	<background name="WHATSAPP-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="WHATSAPP-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="WHATSAPP-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="WHATSAPP-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-WHATSAPP '
+	<icon name="WHATSAPP" state="all"><source name="bmpIconServicesHelper-WHATSAPP" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

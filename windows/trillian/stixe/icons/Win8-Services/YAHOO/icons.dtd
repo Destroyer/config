@@ -1,0 +1,102 @@
+
+<!ENTITY ctrlFilesYAHOO '
+	<bitmap	name="bmpIconServices-YAHOO-Mini"		file="../../stixe/icons/Win8-Services/YAHOO/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-YAHOO-Tiny"		file="../../stixe/icons/Win8-Services/YAHOO/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-YAHOO"		file="../../stixe/icons/Win8-Services/YAHOO/Services-Helper.png"/>
+	<taskbaricon	name="icoYAHOO"				file="../../stixe/icons/Win8-Services/YAHOO/YAHOO.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-YAHOO-Tiny '
+	<icon type=	"YAHOO-online"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"YAHOO-offline"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"YAHOO-away"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-idle"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-custom"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-mobile"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-busy"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-not at home"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-not at my desk"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-not in the office"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-on vacation"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-on the phone"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-out to lunch"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-stepped out"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"YAHOO-invisible"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+	<icon type=	"YAHOO-webcam"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-YAHOO-16 '
+	<background name="YAHOO" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="YAHOO" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="YAHOO" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"idle"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"custom"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"not at home"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"not at my desk"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"not in the office"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"on vacation"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"on the phone"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"out to lunch"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"stepped out"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="YAHOO" type=	"busy"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="YAHOO" type=	"webcam"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="YAHOO" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	112	" bottom="	128	"/></background>
+	<background name="YAHOO" type=	"group-online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	128	" bottom="	144	"/></background>
+	<background name="YAHOO" type=	"group-offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	144	" bottom="	160	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-YAHOO-48 '
+'>
+
+<!ENTITY % iclToolbarServices-YAHOO-Mini '
+	<background name="YAHOO" type=	"online"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="YAHOO" type=	"mixed"		state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="YAHOO" type=	"offline"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="YAHOO" type=	"away"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"idle"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"custom"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"mobile"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"busy"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"not at home"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"not at my desk"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"not in the office"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"on vacation"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"on the phone"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"out to lunch"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"stepped out"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="YAHOO" type=	"invisible"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"webcam"	state="normal"><source name="bmpIconServices-YAHOO-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-YAHOO-Tiny '
+	<background name="YAHOO" type=	"online"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="YAHOO" type=	"offline"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="YAHOO" type=	"away"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"idle"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"custom"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"mobile"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"busy"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"not at home"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"not at my desk"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"not in the office"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"on vacation"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"out to lunch"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"stepped out"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="YAHOO" type=	"invisible"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="YAHOO" type=	"webcam"	state="normal"><source name="bmpIconServices-YAHOO-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-YAHOO '
+	<background name="YAHOO-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="YAHOO-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="YAHOO-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="YAHOO-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-YAHOO '
+	<icon name="YAHOO" state="all"><source name="bmpIconServicesHelper-YAHOO" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

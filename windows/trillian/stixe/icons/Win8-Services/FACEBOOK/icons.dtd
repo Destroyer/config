@@ -1,0 +1,65 @@
+
+<!ENTITY ctrlFilesFACEBOOK '
+	<bitmap	name="bmpIconServices-FACEBOOK-Mini"		file="../../stixe/icons/Win8-Services/FACEBOOK/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-FACEBOOK-Tiny"		file="../../stixe/icons/Win8-Services/FACEBOOK/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-FACEBOOK"		file="../../stixe/icons/Win8-Services/FACEBOOK/Services-Helper.png"/>
+	<taskbaricon	name="icoFACEBOOK"				file="../../stixe/icons/Win8-Services/FACEBOOK/FACEBOOK.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-FACEBOOK-Tiny '
+	<icon type=	"FACEBOOK-online"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"FACEBOOK-offline"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"FACEBOOK-away"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"FACEBOOK-invisible"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-FACEBOOK-16 '
+	<background name="FACEBOOK" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="FACEBOOK" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="FACEBOOK" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="FACEBOOK" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-FACEBOOK-48 '
+'>
+
+<!ENTITY % iclToolbarServices-FACEBOOK-Mini '
+	<background name="FACEBOOK" type=	"online"	state="normal"><source name="bmpIconServices-FACEBOOK-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="FACEBOOK" type=	"mixed"		state="normal"><source name="bmpIconServices-FACEBOOK-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="FACEBOOK" type=	"offline"	state="normal"><source name="bmpIconServices-FACEBOOK-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="FACEBOOK" type=	"away"	state="normal"><source name="bmpIconServices-FACEBOOK-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="FACEBOOK" type=	"invisible"	state="normal"><source name="bmpIconServices-FACEBOOK-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-FACEBOOK-Tiny '
+	<background name="FACEBOOK" type=	"online"	state="normal"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="FACEBOOK" type=	"offline"	state="normal"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="FACEBOOK" type=	"away"	state="normal"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="FACEBOOK" type=	"invisible"	state="normal"><source name="bmpIconServices-FACEBOOK-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-FACEBOOK '
+	<background name="FACEBOOK-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="FACEBOOK-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="FACEBOOK-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="FACEBOOK-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+
+	<background name="FACEBOOK-systray-poke">&icoPoke-Large;</background>
+	<background name="FACEBOOK-systray-new_share">&icoShare-Large;</background>
+	<background name="FACEBOOK-systray-group_invite">&icoGroupRequest-Large;</background>
+	<background name="FACEBOOK-systray-event_invite">&icoEventRequest-Large;</background>
+	<background name="FACEBOOK-systray-friend_request">&icoAddRequest-Large;</background>
+	<background name="FACEBOOK-systray-status_msg_update"></background>
+	<background name="FACEBOOK-systray-profile_update">&icoInfoUpdate-Large;</background>
+	<background name="FACEBOOK-systray-wall_post">&icoPublMsg-Large;</background>
+	<background name="FACEBOOK-systray-friend_note">&icoNote-Large;</background>
+	<background name="FACEBOOK-systray-birthday">&icoBirthday-Large;</background>
+	<background name="FACEBOOK-systray-photo_album_update">&icoPhoto-Large;</background>
+	<background name="FACEBOOK-systray-photo_tagged">&icoPhotoUpdate-Large;</background>
+'>
+
+<!ENTITY % iclListServicesHelper-FACEBOOK '
+	<icon name="FACEBOOK" state="all"><source name="bmpIconServicesHelper-FACEBOOK" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

@@ -1,0 +1,325 @@
+
+<!-- Basic Declarations -->
+<!-- 	List, Menu and Toolbar Icons can have variable sizes.
+	Panel (10), Status Bar (12), Notifications (32), Window (16), Taskbar (16) and Tab (16) icons are however fixed size.
+	This is the shared file if you are creating an icon pack that does not include all icons.
+-->
+
+
+<!ENTITY % iniServicesIconPackUseStandardSizes  '1'>
+
+<!ENTITY % iniListTinyIconWidth		'16'>
+<!ENTITY % iniListTinyIconHeight	'16'>
+<!ENTITY % iniListSmallIconWidth	'24'>
+<!ENTITY % iniListSmallIconHeight	'24'>
+<!ENTITY % iniListMediumIconWidth	'32'>
+<!ENTITY % iniListMediumIconHeight	'32'>
+<!ENTITY % iniListLargeIconWidth	'48'>
+<!ENTITY % iniListLargeIconHeight	'48'>
+<!ENTITY % iniListXLargeIconWidth	'96'>
+<!ENTITY % iniListXLargeIconHeight	'96'>
+
+<!ENTITY % iniMenuTinyIconWidth		'16'>
+<!ENTITY % iniMenuTinyIconHeight	'16'>
+
+<!ENTITY % iniToolbarTinyIconWidth	'16'>
+<!ENTITY % iniToolbarTinyIconHeight	'16'>
+<!ENTITY % iniToolbarSmallIconWidth	'24'>
+<!ENTITY % iniToolbarSmallIconHeight	'24'>
+
+<!ENTITY iniListTinyIconWidth		'%iniListTinyIconWidth;'>
+<!ENTITY iniListTinyIconHeight		'%iniListTinyIconHeight;'>
+<!ENTITY iniListSmallIconWidth		'%iniListSmallIconWidth;'>
+<!ENTITY iniListSmallIconHeight		'%iniListSmallIconHeight;'>
+<!ENTITY iniListMediumIconWidth		'%iniListMediumIconWidth;'>
+<!ENTITY iniListMediumIconHeight	'%iniListMediumIconHeight;'>
+<!ENTITY iniListLargeIconWidth		'%iniListLargeIconWidth;'>
+<!ENTITY iniListLargeIconHeight		'%iniListLargeIconHeight;'>
+<!ENTITY iniListXLargeIconWidth		'%iniListXLargeIconWidth;'>
+<!ENTITY iniListXLargeIconHeight	'%iniListXLargeIconHeight;'>
+
+
+<!ENTITY % entIconsASTRA	SYSTEM 	"../../stixe/icons/Win8-Services/ASTRA/icons.dtd">%entIconsASTRA;
+<!ENTITY % entIconsMETA		SYSTEM 	"../../stixe/icons/Win8-Services/META/icons.dtd">%entIconsMETA;
+<!ENTITY % entIconsDEFAULT	SYSTEM 	"../../stixe/icons/Win8-Services/DEFAULT/icons.dtd">%entIconsDEFAULT;
+
+<!ENTITY % entIconsAIM		SYSTEM 	"../../stixe/icons/Win8-Services/AIM/icons.dtd">%entIconsAIM;
+<!ENTITY % entIconsICQ		SYSTEM 	"../../stixe/icons/Win8-Services/ICQ/icons.dtd">%entIconsICQ;
+<!ENTITY % entIconsMSN		SYSTEM 	"../../stixe/icons/Win8-Services/MSN/icons.dtd">%entIconsMSN;
+<!ENTITY % entIconsYAHOO	SYSTEM 	"../../stixe/icons/Win8-Services/YAHOO/icons.dtd">%entIconsYAHOO;
+
+<!ENTITY % entIconsIRC		SYSTEM 	"../../stixe/icons/Win8-Services/IRC/icons.dtd">%entIconsIRC;
+<!ENTITY % entIconsJABBER	SYSTEM 	"../../stixe/icons/Win8-Services/JABBER/icons.dtd">%entIconsJABBER;
+<!ENTITY % entIconsGOOGLE	SYSTEM 	"../../stixe/icons/Win8-Services/GOOGLE/icons.dtd">%entIconsGOOGLE;
+<!ENTITY % entIconsMYSPACE	SYSTEM 	"../../stixe/icons/Win8-Services/MYSPACE/icons.dtd">%entIconsMYSPACE;
+<!ENTITY % entIconsFACEBOOK	SYSTEM 	"../../stixe/icons/Win8-Services/FACEBOOK/icons.dtd">%entIconsFACEBOOK;
+<!ENTITY % entIconsTWITTER	SYSTEM 	"../../stixe/icons/Win8-Services/TWITTER/icons.dtd">%entIconsTWITTER;
+<!ENTITY % entIconsRENDEZVOUS	SYSTEM 	"../../stixe/icons/Win8-Services/RENDEZVOUS/icons.dtd">%entIconsRENDEZVOUS;
+
+<!ENTITY % entIconsLCS		SYSTEM 	"../../stixe/icons/Win8-Services/LCS/icons.dtd">%entIconsLCS;
+<!ENTITY % entIconsNOVELL	SYSTEM 	"../../stixe/icons/Win8-Services/NOVELL/icons.dtd">%entIconsNOVELL;
+<!ENTITY % entIconsQQ		SYSTEM 	"../../stixe/icons/Win8-Services/QQ/icons.dtd">%entIconsQQ;
+<!ENTITY % entIconsSAMETIME	SYSTEM 	"../../stixe/icons/Win8-Services/SAMETIME/icons.dtd">%entIconsSAMETIME;
+<!ENTITY % entIconsSKYPE	SYSTEM 	"../../stixe/icons/Win8-Services/SKYPE/icons.dtd">%entIconsSKYPE;
+<!ENTITY % entIconsXFIRE	SYSTEM 	"../../stixe/icons/Win8-Services/XFIRE/icons.dtd">%entIconsXFIRE;
+
+<!ENTITY % entIconsPOP3		SYSTEM 	"../../stixe/icons/Win8-Services/POP3/icons.dtd">%entIconsPOP3;
+<!ENTITY % entIconsIMAP		SYSTEM 	"../../stixe/icons/Win8-Services/IMAP/icons.dtd">%entIconsIMAP;
+
+<!ENTITY % entIconsFOURSQUARE	SYSTEM 	"../../stixe/icons/Win8-Services/FOURSQUARE/icons.dtd">%entIconsFOURSQUARE;
+<!ENTITY % entIconsLINKEDIN	SYSTEM 	"../../stixe/icons/Win8-Services/LINKEDIN/icons.dtd">%entIconsLINKEDIN;
+<!ENTITY % entIconsVZ		SYSTEM 	"../../stixe/icons/Win8-Services/VZ/icons.dtd">%entIconsVZ;
+<!ENTITY % entIconsSCHUELERVZ	SYSTEM 	"../../stixe/icons/Win8-Services/SCHUELERVZ/icons.dtd">%entIconsSCHUELERVZ;
+
+<!ENTITY % entIconsWHATSAPP	SYSTEM 	"../../stixe/icons/Win8-Services/WHATSAPP/icons.dtd">%entIconsWHATSAPP;
+<!ENTITY % entIconsEMAIL	SYSTEM 	"../../stixe/icons/Win8-Services/EMAIL/icons.dtd">%entIconsEMAIL;
+<!ENTITY % entIconsLYNC		SYSTEM 	"../../stixe/icons/Win8-Services/LYNC/icons.dtd">%entIconsLYNC;
+<!ENTITY % entIconsSALESFORCE		SYSTEM 	"../../stixe/icons/Win8-Services/SALESFORCE/icons.dtd">%entIconsSALESFORCE;
+<!ENTITY % entIconsSTEAM		SYSTEM 	"../../stixe/icons/Win8-Services/STEAM/icons.dtd">%entIconsSTEAM;
+
+<!-- SYSTEM ENTITIES FOR THIS ICON PACK ONLY (CHANGE NAME IF YOU ARE CREATING NEW ICON PACK) -->
+<!ENTITY IconPack-Win8-Services-Files	SYSTEM "../../stixe/icons/Win8-Services/Files.xml">
+
+
+<!-- SYSTEM ENTITIES WITH SPECIFIC NAMES (DO NOT CHANGE) -->
+
+<!ENTITY % iclListServices '
+	%iclListServices-DEFAULT;
+'>
+<!ENTITY iclListServices '%iclListServices;'>
+
+<!ENTITY % iclListServicesHelper '
+	%iclListServicesHelper-ASTRA;
+
+	%iclListServicesHelper-AIM;
+	%iclListServicesHelper-ICQ;
+	%iclListServicesHelper-MSN;
+	%iclListServicesHelper-YAHOO;
+
+	%iclListServicesHelper-IRC;
+	%iclListServicesHelper-JABBER;
+	%iclListServicesHelper-GOOGLE;
+	%iclListServicesHelper-MYSPACE;
+	%iclListServicesHelper-FACEBOOK;
+	%iclListServicesHelper-TWITTER;
+	%iclListServicesHelper-RENDEZVOUS;
+
+	%iclListServicesHelper-LCS;
+	%iclListServicesHelper-NOVELL;
+	%iclListServicesHelper-QQ;
+	%iclListServicesHelper-SAMETIME;
+	%iclListServicesHelper-SKYPE;
+	%iclListServicesHelper-XFIRE;
+
+	%iclListServicesHelper-POP3;
+	%iclListServicesHelper-IMAP;
+
+	%iclListServicesHelper-FOURSQUARE;
+	%iclListServicesHelper-LINKEDIN;
+	%iclListServicesHelper-VZ;
+	%iclListServicesHelper-SCHUELERVZ;
+	
+	%iclListServicesHelper-WHATSAPP;
+	%iclListServicesHelper-EMAIL;
+	%iclListServicesHelper-LYNC;
+	%iclListServicesHelper-SALESFORCE;
+	%iclListServicesHelper-STEAM;
+'>
+<!ENTITY iclListServicesHelper '%iclListServicesHelper;'>
+
+<!ENTITY iclMenuServicesTiny	'
+	%iclMenuServices-ASTRA-Tiny;
+	%iclMenuServices-META-Tiny;
+
+	%iclMenuServices-AIM-Tiny;
+	%iclMenuServices-ICQ-Tiny;
+	%iclMenuServices-MSN-Tiny;
+	%iclMenuServices-YAHOO-Tiny;
+
+	%iclMenuServices-IRC-Tiny;
+	%iclMenuServices-JABBER-Tiny;
+	%iclMenuServices-GOOGLE-Tiny;
+	%iclMenuServices-MYSPACE-Tiny;
+	%iclMenuServices-FACEBOOK-Tiny;
+	%iclMenuServices-TWITTER-Tiny;
+	%iclMenuServices-RENDEZVOUS-Tiny;
+
+	%iclMenuServices-LCS-Tiny;
+	%iclMenuServices-NOVELL-Tiny;
+	%iclMenuServices-QQ-Tiny;
+	%iclMenuServices-SAMETIME-Tiny;
+	%iclMenuServices-SKYPE-Tiny;
+	%iclMenuServices-XFIRE-Tiny;
+
+	%iclMenuServices-POP3-Tiny;
+	%iclMenuServices-IMAP-Tiny;
+
+	%iclMenuServices-FOURSQUARE-Tiny;
+	%iclMenuServices-LINKEDIN-Tiny;
+	%iclMenuServices-VZ-Tiny;
+	%iclMenuServices-SCHUELERVZ-Tiny;
+	
+	%iclMenuServices-WHATSAPP-Tiny;
+	%iclMenuServices-EMAIL-Tiny;
+	%iclMenuServices-LYNC-Tiny;
+	%iclMenuServices-SALESFORCE-Tiny;
+	%iclMenuServices-STEAM-Tiny;
+'>
+
+<!ENTITY iclToolbarServicesMini	'
+	%iclToolbarServices-ASTRA-Mini;
+
+	%iclToolbarServices-AIM-Mini;
+	%iclToolbarServices-ICQ-Mini;
+	%iclToolbarServices-MSN-Mini;
+	%iclToolbarServices-YAHOO-Mini;
+
+	%iclToolbarServices-IRC-Mini;
+	%iclToolbarServices-JABBER-Mini;
+	%iclToolbarServices-GOOGLE-Mini;
+	%iclToolbarServices-MYSPACE-Mini;
+	%iclToolbarServices-FACEBOOK-Mini;
+	%iclToolbarServices-TWITTER-Mini;
+	%iclToolbarServices-RENDEZVOUS-Mini;
+
+	%iclToolbarServices-LCS-Mini;
+	%iclToolbarServices-NOVELL-Mini;
+	%iclToolbarServices-QQ-Mini;
+	%iclToolbarServices-SAMETIME-Mini;
+	%iclToolbarServices-SKYPE-Mini;
+	%iclToolbarServices-XFIRE-Mini;
+
+	%iclToolbarServices-POP3-Mini;
+	%iclToolbarServices-IMAP-Mini;
+
+	%iclToolbarServices-FOURSQUARE-Mini;
+	%iclToolbarServices-LINKEDIN-Mini;
+	%iclToolbarServices-VZ-Mini;
+	%iclToolbarServices-SCHUELERVZ-Mini;
+	
+	%iclToolbarServices-WHATSAPP-Mini;
+	%iclToolbarServices-EMAIL-Mini;
+	%iclToolbarServices-LYNC-Mini;
+	%iclToolbarServices-SALESFORCE-Mini;
+	%iclToolbarServices-STEAM-Mini;
+'>
+
+<!ENTITY iclToolbarServicesTiny	'
+	%iclToolbarServices-ASTRA-Tiny;
+	%iclToolbarServices-META-Tiny;
+
+	%iclToolbarServices-AIM-Tiny;
+	%iclToolbarServices-ICQ-Tiny;
+	%iclToolbarServices-MSN-Tiny;
+	%iclToolbarServices-YAHOO-Tiny;
+
+	%iclToolbarServices-IRC-Tiny;
+	%iclToolbarServices-JABBER-Tiny;
+	%iclToolbarServices-GOOGLE-Tiny;
+	%iclToolbarServices-MYSPACE-Tiny;
+	%iclToolbarServices-FACEBOOK-Tiny;
+	%iclToolbarServices-TWITTER-Tiny;
+	%iclToolbarServices-RENDEZVOUS-Tiny;
+
+	%iclToolbarServices-LCS-Tiny;
+	%iclToolbarServices-NOVELL-Tiny;
+	%iclToolbarServices-QQ-Tiny;
+	%iclToolbarServices-SAMETIME-Tiny;
+	%iclToolbarServices-SKYPE-Tiny;
+	%iclToolbarServices-XFIRE-Tiny;
+
+	%iclToolbarServices-POP3-Tiny;
+	%iclToolbarServices-IMAP-Tiny;
+
+	%iclToolbarServices-FOURSQUARE-Tiny;
+	%iclToolbarServices-LINKEDIN-Tiny;
+	%iclToolbarServices-VZ-Tiny;
+	%iclToolbarServices-SCHUELERVZ-Tiny;
+	
+	%iclToolbarServices-WHATSAPP-Tiny;
+	%iclToolbarServices-EMAIL-Tiny;
+	%iclToolbarServices-LYNC-Tiny;
+	%iclToolbarServices-SALESFORCE-Tiny;
+	%iclToolbarServices-STEAM-Tiny;
+'>
+
+<!ENTITY iclSwitcherServices16	'
+	%iclSwitcherServices-ASTRA-16;
+	%iclSwitcherServices-META-16;
+
+	%iclSwitcherServices-AIM-16;
+	%iclSwitcherServices-ICQ-16;
+	%iclSwitcherServices-MSN-16;
+	%iclSwitcherServices-YAHOO-16;
+
+	%iclSwitcherServices-IRC-16;
+	%iclSwitcherServices-JABBER-16;
+	%iclSwitcherServices-GOOGLE-16;
+	%iclSwitcherServices-MYSPACE-16;
+	%iclSwitcherServices-FACEBOOK-16;
+	%iclSwitcherServices-TWITTER-16;
+	%iclSwitcherServices-RENDEZVOUS-16;
+
+	%iclSwitcherServices-LCS-16;
+	%iclSwitcherServices-NOVELL-16;
+	%iclSwitcherServices-QQ-16;
+	%iclSwitcherServices-SAMETIME-16;
+	%iclSwitcherServices-SKYPE-16;
+	%iclSwitcherServices-XFIRE-16;
+
+	%iclSwitcherServices-POP3-16;
+	%iclSwitcherServices-IMAP-16;
+
+	%iclSwitcherServices-FOURSQUARE-16;
+	%iclSwitcherServices-LINKEDIN-16;
+	%iclSwitcherServices-VZ-16;
+	%iclSwitcherServices-SCHUELERVZ-16;
+
+	%iclSwitcherServices-WHATSAPP-16;
+	%iclSwitcherServices-EMAIL-16;
+	%iclSwitcherServices-LYNC-16;
+	%iclSwitcherServices-SALESFORCE-16;
+	%iclSwitcherServices-STEAM-16;
+'>
+
+<!ENTITY iclSwitcherServices48	'
+'>
+
+<!ENTITY iclNotifierServices48 '
+	%iclNotifiers-ASTRA;
+
+	%iclNotifiers-AIM;
+	%iclNotifiers-ICQ;
+	%iclNotifiers-MSN;
+	%iclNotifiers-YAHOO;
+
+	%iclNotifiers-IRC;
+	%iclNotifiers-JABBER;
+	%iclNotifiers-GOOGLE;
+	%iclNotifiers-MYSPACE;
+	%iclNotifiers-FACEBOOK;
+	%iclNotifiers-TWITTER;
+	%iclNotifiers-RENDEZVOUS;
+
+	%iclNotifiers-LCS;
+	%iclNotifiers-NOVELL;
+	%iclNotifiers-QQ;
+	%iclNotifiers-SAMETIME;
+	%iclNotifiers-SKYPE;
+	%iclNotifiers-XFIRE;
+
+	%iclNotifiers-POP3;
+	%iclNotifiers-IMAP;
+
+	%iclNotifiers-FOURSQUARE;
+	%iclNotifiers-LINKEDIN;
+	%iclNotifiers-VZ;
+	%iclNotifiers-SCHUELERVZ;
+	
+	%iclNotifiers-WHATSAPP;
+	%iclNotifiers-EMAIL;
+	%iclNotifiers-LYNC;
+	%iclNotifiers-SALESFORCE;
+	%iclNotifiers-STEAM;
+'>
+

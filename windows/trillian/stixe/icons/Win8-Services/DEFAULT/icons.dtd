@@ -1,0 +1,36 @@
+
+<!ENTITY ctrlFilesDEFAULT '
+	<bitmap	name="bmpIconServices-DEFAULT-Mini"		file="../../stixe/icons/Win8-Services/DEFAULT/Services-Mini.png"/>
+	<bitmap	name="bmpIconServices-DEFAULT-Tiny"		file="../../stixe/icons/Win8-Services/DEFAULT/Services-Tiny.png"/>
+	<bitmap	name="bmpIconNotifiers-DEFAULT"		file="../../stixe/icons/Win8-Services/DEFAULT/Notifiers-48.png"/>
+'>
+
+<!ENTITY % iclListServices-DEFAULT "
+	<iconmap col='1' row='10'> 
+		<grid width='16' height='16'><source name='bmpIconServices-DEFAULT-Tiny' left='0' right='16' top='0' bottom='160'/></grid>
+		<grid width='10' height='10' inline='1'><source name='bmpIconServices-DEFAULT-Mini' left='0' right='10' top='0' bottom='80'/></grid>
+		<types state='all'>'online' 'recent-online' 'free for chat','offline' 'recent-offline', 'away' 'extended away' 'occupied' 'not available' 'on the phone' 'be right back' 'out to lunch' 'not at home' 'not at my desk' 'not in the office' 'on vacation' 'stepped out' 'idle','invisible', 'do not disturb' 'busy','notinlist','auth','mobile','group-online','group-offline'</types>
+	</iconmap>
+
+	<icon type='tweet' state='all'>&icoPublMsg;</icon>
+	<icon type='favorite' state='all'>&icoFavorites;</icon>
+	<icon type='reply' state='all'>&icoPublReply;</icon>
+	<icon type='reply-to-you' state='all'>&icoPublReplyToYou;</icon>
+	<icon type='follow-trillian' state='all'><source name='bmpIconCommonTiny' left='64' right='80' top='64' bottom='80'/></icon>
+	<icon type='news' state='all'>&icoPublMsg;</icon>
+
+	<icon type='mail' state='all'>&icoMail;</icon>
+	<icon type='poke' state='all'>&icoPoke;</icon>
+	<icon type='new_share' state='all'>&icoShare;</icon>
+	<icon type='group_invite' state='all'>&icoGroup;</icon>
+	<icon type='event_invite' state='all'>&icoEvent;</icon>
+	<icon type='friend_request' state='all'>&icoAddRequest;</icon>
+	<icon type='status_msg_update' state='all'>&icoStatusUpdate;</icon>
+	<icon type='profile_update' state='all'>&icoInfoUpdate;</icon>
+	<icon type='wall_post' state='all'>&icoPublMsg;</icon>
+	<icon type='friend_note' state='all'>&icoNote;</icon>
+	<icon type='birthday' state='all'>&icoBirthday;</icon>
+	<icon type='photo_album_update' state='all'>&icoPhoto;</icon>
+	<icon type='photo_tagged' state='all'>&icoPhotoUpdate;</icon>
+">
+

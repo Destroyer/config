@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesLYNC '
+	<bitmap	name="bmpIconServices-LYNC-Mini"		file="../../stixe/icons/Win8-Services/LYNC/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-LYNC-Tiny"		file="../../stixe/icons/Win8-Services/LYNC/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-LYNC"		file="../../stixe/icons/Win8-Services/LYNC/Services-Helper.png"/>
+	<taskbaricon	name="icoLYNC"				file="../../stixe/icons/Win8-Services/LYNC/LYNC.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-LYNC-Tiny '
+	<icon type=	"LYNC-online"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"LYNC-offline"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"LYNC-away"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"LYNC-invisible"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-LYNC-16 '
+	<background name="LYNC" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="LYNC" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="LYNC" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="LYNC" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-LYNC-48 '
+'>
+
+<!ENTITY % iclToolbarServices-LYNC-Mini '
+	<background name="LYNC" type=	"online"	state="normal"><source name="bmpIconServices-LYNC-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="LYNC" type=	"mixed"		state="normal"><source name="bmpIconServices-LYNC-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="LYNC" type=	"offline"	state="normal"><source name="bmpIconServices-LYNC-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="LYNC" type=	"away"	state="normal"><source name="bmpIconServices-LYNC-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="LYNC" type=	"invisible"	state="normal"><source name="bmpIconServices-LYNC-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-LYNC-Tiny '
+	<background name="LYNC" type=	"online"	state="normal"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="LYNC" type=	"offline"	state="normal"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="LYNC" type=	"away"	state="normal"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="LYNC" type=	"invisible"	state="normal"><source name="bmpIconServices-LYNC-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-LYNC '
+	<background name="LYNC-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="LYNC-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="LYNC-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="LYNC-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-LYNC '
+	<icon name="LYNC" state="all"><source name="bmpIconServicesHelper-LYNC" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

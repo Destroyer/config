@@ -1,0 +1,100 @@
+<control name="Segoe" type="topic">
+	<font source="segoeui" type="Segoe UI" size="8" bold="0"/>
+	<forecolor source="black"/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="panelheadfont" type="topic">
+	<font source="segoeui" type="Segoe UI" size="12" bold="0" allcaps="1"/>
+	<forecolor source="panelheader"/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="templatebuttonfont" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<forecolor source="black"/>
+	<color name="normal-fore" source="black"/>
+	<color name="over-fore" source="black"/>
+	<color name="push-fore" source="black"/>
+	<color name="disabled-fore" red="131" green="131" blue="131" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="consoletext-left" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" italic="0"/>
+	<forecolor source="blue29"/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="consoletext-right" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" italic="0"/>
+	<forecolor source="blue29"/>
+	<settings name="alignment" value="right"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="tooltipinfolistheader" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="8" bold="1" italic="0" allcaps="0"/>
+	<forecolor source="blue76"/>
+	<settings name="alignment" value="right"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="twitterinfolistheader" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="7" bold="0" italic="0" allcaps="0"/>
+	<forecolor source="blue76"/>
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="topicinfolistheader" type="topic">
+	<font source="segoeui" type="Segoe UI" size="8" bold="1" italic="0" allcaps="0"/>
+	<forecolor source="blue76"/>
+	<settings name="alignment" value="right"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="tooltipinfolistheader-long" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="8" bold="1" italic="0" allcaps="0"/>
+	<forecolor source="blue76"/>
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="tooltipinfolistvalue" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" italic="0" allcaps="0"/>
+	<forecolor source="black"/>
+	<color name="url-fore" source="url"/>
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="topicinfolistvalue" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" italic="0" allcaps="0"/>
+	<forecolor source="black"/>
+	<color name="url-fore" source="url"/>
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="topicSubtitle" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="7" bold="0" italic="0" allcaps="0"/>
+	<forecolor red="102" green="102" blue="102"/>
+	<color name="url-fore" source="url"/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>

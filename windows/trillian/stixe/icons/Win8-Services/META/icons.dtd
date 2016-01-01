@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesMETA '
+	<bitmap	name="bmpIconServices-META-Mini"		file="../../stixe/icons/Win8-Services/META/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-META-Tiny"		file="../../stixe/icons/Win8-Services/META/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-META"		file="../../stixe/icons/Win8-Services/META/Services-Helper.png"/>
+	<taskbaricon	name="icoMETA"				file="../../stixe/icons/Win8-Services/META/META.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-META-Tiny '
+	<icon type=	"META-online"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"META-offline"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"META-away"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"META-invisible"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-META-16 '
+	<background name="META" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="META" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="META" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="META" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-META-48 '
+'>
+
+<!ENTITY % iclToolbarServices-META-Mini '
+	<background name="META" type=	"online"	state="normal"><source name="bmpIconServices-META-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="META" type=	"mixed"		state="normal"><source name="bmpIconServices-META-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="META" type=	"offline"	state="normal"><source name="bmpIconServices-META-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="META" type=	"away"	state="normal"><source name="bmpIconServices-META-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="META" type=	"invisible"	state="normal"><source name="bmpIconServices-META-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-META-Tiny '
+	<background name="META" type=	"online"	state="normal"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="META" type=	"offline"	state="normal"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="META" type=	"away"	state="normal"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="META" type=	"invisible"	state="normal"><source name="bmpIconServices-META-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-META '
+	<background name="META-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="META-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="META-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="META-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-META '
+	<icon name="META" state="all"><source name="bmpIconServicesHelper-META" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

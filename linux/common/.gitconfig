@@ -1,0 +1,8 @@
+[alias]
+    st = status
+    ci = commit --verbose
+    co = checkout
+    df = diff
+    lg = log -p
+    acp = "!f(){ git add -A && git commit -am "$1" && git push origin master; };f"
+    singlebranch = "$1" --branch "$2" --single-branch

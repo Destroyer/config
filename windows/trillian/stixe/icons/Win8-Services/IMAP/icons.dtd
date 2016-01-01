@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesIMAP '
+	<bitmap	name="bmpIconServices-IMAP-Mini"		file="../../stixe/icons/Win8-Services/IMAP/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-IMAP-Tiny"		file="../../stixe/icons/Win8-Services/IMAP/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-IMAP"		file="../../stixe/icons/Win8-Services/IMAP/Services-Helper.png"/>
+	<taskbaricon	name="icoIMAP"				file="../../stixe/icons/Win8-Services/IMAP/IMAP.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-IMAP-Tiny '
+	<icon type=	"IMAP-online"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"IMAP-offline"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"IMAP-away"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"IMAP-invisible"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-IMAP-16 '
+	<background name="IMAP" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="IMAP" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="IMAP" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="IMAP" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-IMAP-48 '
+'>
+
+<!ENTITY % iclToolbarServices-IMAP-Mini '
+	<background name="IMAP" type=	"online"	state="normal"><source name="bmpIconServices-IMAP-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="IMAP" type=	"mixed"		state="normal"><source name="bmpIconServices-IMAP-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="IMAP" type=	"offline"	state="normal"><source name="bmpIconServices-IMAP-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="IMAP" type=	"away"	state="normal"><source name="bmpIconServices-IMAP-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="IMAP" type=	"invisible"	state="normal"><source name="bmpIconServices-IMAP-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-IMAP-Tiny '
+	<background name="IMAP" type=	"online"	state="normal"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="IMAP" type=	"offline"	state="normal"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="IMAP" type=	"away"	state="normal"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="IMAP" type=	"invisible"	state="normal"><source name="bmpIconServices-IMAP-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-IMAP '
+	<background name="IMAP-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="IMAP-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="IMAP-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="IMAP-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-IMAP '
+	<icon name="IMAP" state="all"><source name="bmpIconServicesHelper-IMAP" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesSTEAM '
+	<bitmap	name="bmpIconServices-STEAM-Mini"		file="../../stixe/icons/Win8-Services/STEAM/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-STEAM-Tiny"		file="../../stixe/icons/Win8-Services/STEAM/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-STEAM"		file="../../stixe/icons/Win8-Services/STEAM/Services-Helper.png"/>
+	<taskbaricon	name="icoSTEAM"				file="../../stixe/icons/Win8-Services/STEAM/STEAM.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-STEAM-Tiny '
+	<icon type=	"STEAM-online"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"STEAM-offline"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"STEAM-away"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"STEAM-invisible"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-STEAM-16 '
+	<background name="STEAM" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="STEAM" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="STEAM" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="STEAM" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-STEAM-48 '
+'>
+
+<!ENTITY % iclToolbarServices-STEAM-Mini '
+	<background name="STEAM" type=	"online"	state="normal"><source name="bmpIconServices-STEAM-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="STEAM" type=	"mixed"		state="normal"><source name="bmpIconServices-STEAM-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="STEAM" type=	"offline"	state="normal"><source name="bmpIconServices-STEAM-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="STEAM" type=	"away"	state="normal"><source name="bmpIconServices-STEAM-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="STEAM" type=	"invisible"	state="normal"><source name="bmpIconServices-STEAM-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-STEAM-Tiny '
+	<background name="STEAM" type=	"online"	state="normal"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="STEAM" type=	"offline"	state="normal"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="STEAM" type=	"away"	state="normal"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="STEAM" type=	"invisible"	state="normal"><source name="bmpIconServices-STEAM-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-STEAM '
+	<background name="STEAM-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="STEAM-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="STEAM-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="STEAM-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-STEAM '
+	<icon name="STEAM" state="all"><source name="bmpIconServicesHelper-STEAM" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

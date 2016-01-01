@@ -1,0 +1,52 @@
+
+<!ENTITY ctrlFilesNOVELL '
+	<bitmap	name="bmpIconServices-NOVELL-Mini"		file="../../stixe/icons/Win8-Services/NOVELL/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-NOVELL-Tiny"		file="../../stixe/icons/Win8-Services/NOVELL/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-NOVELL"		file="../../stixe/icons/Win8-Services/NOVELL/Services-Helper.png"/>
+	<taskbaricon	name="icoNOVELL"				file="../../stixe/icons/Win8-Services/NOVELL/NOVELL.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-NOVELL-Tiny '
+	<icon type=	"NOVELL-online"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"NOVELL-offline"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"NOVELL-away"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"NOVELL-invisible"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-NOVELL-16 '
+	<background name="NOVELL" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="NOVELL" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="NOVELL" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="NOVELL" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-NOVELL-48 '
+'>
+
+<!ENTITY % iclToolbarServices-NOVELL-Mini '
+	<background name="NOVELL" type=	"online"	state="normal"><source name="bmpIconServices-NOVELL-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="NOVELL" type=	"mixed"		state="normal"><source name="bmpIconServices-NOVELL-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="NOVELL" type=	"offline"	state="normal"><source name="bmpIconServices-NOVELL-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="NOVELL" type=	"away"	state="normal"><source name="bmpIconServices-NOVELL-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="NOVELL" type=	"invisible"	state="normal"><source name="bmpIconServices-NOVELL-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-NOVELL-Tiny '
+	<background name="NOVELL" type=	"online"	state="normal"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="NOVELL" type=	"offline"	state="normal"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="NOVELL" type=	"away"	state="normal"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="NOVELL" type=	"invisible"	state="normal"><source name="bmpIconServices-NOVELL-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-NOVELL '
+	<background name="NOVELL-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="NOVELL-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="NOVELL-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="NOVELL-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-NOVELL '
+	<icon name="NOVELL" state="all"><source name="bmpIconServicesHelper-NOVELL" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+

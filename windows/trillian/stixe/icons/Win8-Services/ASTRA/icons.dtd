@@ -1,0 +1,68 @@
+
+<!ENTITY ctrlFilesASTRA '
+	<bitmap	name="bmpIconServices-ASTRA-Mini"		file="../../stixe/icons/Win8-Services/ASTRA/Services-Mini.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServices-ASTRA-Tiny"		file="../../stixe/icons/Win8-Services/ASTRA/Services-Tiny.png" filter_source="hueshift"/>
+	<bitmap	name="bmpIconServicesHelper-ASTRA"		file="../../stixe/icons/Win8-Services/ASTRA/Services-Helper.png" filter_source="hueshift"/>
+	<taskbaricon	name="icoASTRA"				file="../../stixe/icons/Win8-Services/ASTRA/ASTRA.ico"/>
+'>
+
+<!ENTITY % iclMenuServices-ASTRA-Tiny '
+	<icon type=	"ASTRA-online"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"ASTRA-group-online"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"ASTRA-mobile"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"ASTRA-free for chat"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></icon>
+	<icon type=	"ASTRA-offline"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"ASTRA-group-offline"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></icon>
+	<icon type=	"ASTRA-away"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"ASTRA-do not disturb"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></icon>
+	<icon type=	"ASTRA-invisible"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></icon>
+'>
+
+<!ENTITY % iclSwitcherServices-ASTRA-16 '
+	<background name="ASTRA" type=	"online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="ASTRA" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="ASTRA" type=	"offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="ASTRA" type=	"away"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="ASTRA" type=	"do not disturb"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	64	" bottom="	80	"/></background>
+	<background name="ASTRA" type=	"invisible"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+	<background name="ASTRA" type=	"mobile"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	112	" bottom="	128	"/></background>
+	<background name="ASTRA" type=	"group-online"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	128	" bottom="	144	"/></background>
+	<background name="ASTRA" type=	"group-offline"	><source name="bmpIconServices-DEFAULT-Tiny" left="0" right="16" top="	144	" bottom="	160	"/></background>
+'>
+
+<!ENTITY % iclSwitcherServices-ASTRA-48 '
+'>
+
+<!ENTITY % iclToolbarServices-ASTRA-Mini '
+	<background name="ASTRA" type=	"online"	state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="ASTRA" type=	"mobile"	state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="ASTRA" type=	"free for chat"	state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="ASTRA" type=	"mixed"		state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	0	" bottom="	12	"/></background>
+	<background name="ASTRA" type=	"offline"	state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	12	" bottom="	24	"/></background>
+	<background name="ASTRA" type=	"away"	state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="ASTRA" type=	"do not disturb"	state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	24	" bottom="	36	"/></background>
+	<background name="ASTRA" type=	"invisible"	state="normal"><source name="bmpIconServices-ASTRA-Mini" left="0" right="12" top="	36	" bottom="	48	"/></background>
+'>
+
+<!ENTITY % iclToolbarServices-ASTRA-Tiny '
+	<background name="ASTRA" type=	"online"	state="normal"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="ASTRA" type=	"mobile"	state="normal"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="ASTRA" type=	"free for chat"	state="normal"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	0	" bottom="	16	"/></background>
+	<background name="ASTRA" type=	"offline"	state="normal"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	16	" bottom="	32	"/></background>
+	<background name="ASTRA" type=	"away"	state="normal"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="ASTRA" type=	"do not disturb"	state="normal"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	32	" bottom="	48	"/></background>
+	<background name="ASTRA" type=	"invisible"	state="normal"><source name="bmpIconServices-ASTRA-Tiny" left="0" right="16" top="	48	" bottom="	64	"/></background>
+'>
+
+<!ENTITY % iclNotifiers-ASTRA '
+	<background name="ASTRA-systray-mail">		<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="0"      bottom="48"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="ASTRA-systray-status">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="48"      bottom="96"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="ASTRA-systray-contactalert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="96"      bottom="144"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+	<background name="ASTRA-systray-messagealert">	<source name="bmpIconNotifiers-DEFAULT"      left="0"      right="48"      top="192"      bottom="240"/><rect><right num="32" width="0"/><bottom num="32" height="0"/></rect></background>  
+'>
+
+<!ENTITY % iclListServicesHelper-ASTRA '
+	<icon name="ASTRA" state="all"><source name="bmpIconServicesHelper-ASTRA" left=" 0 " right=" 12 " top=" 0 " bottom=" 12 "/></icon>
+'>
+
+
