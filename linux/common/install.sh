@@ -6,7 +6,6 @@ cd ~/_install
 
 add-apt-repository -y ppa:danielrichter2007/grub-customizer
 add-apt-repository -y ppa:webupd8team/java
-add-apt-repository -y ppa:obsproject/obs-studio
 add-apt-repository -y ppa:numix/ppa
 
 apt-get update
@@ -29,7 +28,6 @@ libaio1 libaio-dev texlive texlive-lang-czechslovak kile texlive-fonts-recommend
 graphviz \
 gnuplot \
 doxygen doxygen-gui \
-obs-studio \
 htop \
 numlockx \
 curl \
