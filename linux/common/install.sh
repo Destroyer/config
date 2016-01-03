@@ -42,7 +42,7 @@ apt-get -y install vlc -t vivid
 dpkg -i google-chrome-stable_current_amd64.deb || {  apt-get -f -y install; dpkg -i google-chrome-stable_current_amd64.deb; }
 dpkg -i synergy* || {  apt-get -f -y install; dpkg -i synergy*; }
 dpkg -i sublime-text* || {  apt-get -f -y install; dpkg -i sublime-text*; }
-dpkg -i trillian_2*
+dpkg -i trillian_2* || {  apt-get -f -y install; dpkg -i trillian_2*; }
 
 tar -zxvf ffmpeg-release-64bit-static.tar.xz ffmpeg -C /usr/bin
  
