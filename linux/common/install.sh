@@ -17,7 +17,6 @@ wget "http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb"
 wget "http://download.netbeans.org/netbeans/8.1/final/bundles/netbeans-8.1-linux.sh" -O netbeans-8.1-linux.sh
 wget --trust-server-names "https://www.trillian.im/get/linux/2.0/?deb=64&gccv=5"
 wget "http://installer.jdownloader.org/JD2Setup_x64.sh"
-wget "http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz"
 
 apt-get -y install alien \
 oracle-java8-installer \
@@ -35,16 +34,14 @@ vim \
 rlwrap \
 redshift \
 redshift-gtk \
-numix-icon-theme
+numix-icon-theme \
+vlc \
+ffmpeg
  
-apt-get -y install vlc -t vivid
-
 dpkg -i google-chrome-stable_current_amd64.deb || {  apt-get -f -y install; dpkg -i google-chrome-stable_current_amd64.deb; }
 dpkg -i synergy* || {  apt-get -f -y install; dpkg -i synergy*; }
 dpkg -i sublime-text* || {  apt-get -f -y install; dpkg -i sublime-text*; }
-dpkg -i trillian_2* || {  apt-get -f -y install; dpkg -i trillian_2*; }
-
-tar -zxvf ffmpeg-release-64bit-static.tar.xz ffmpeg -C /usr/bin
+dpkg -i trillian_2*  || {  apt-get -f -y install; dpkg -i trillian_2*; }
  
 # Numlock fix
 # source: https://help.ubuntu.com/community/NumLock
