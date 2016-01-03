@@ -15,7 +15,7 @@ wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 wget "http://synergy-project.org/files/packages/synergy-v1.7.5-stable-fa85a24-Linux-x86_64.deb"
 wget "http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb"
 wget "http://download.netbeans.org/netbeans/8.1/final/bundles/netbeans-8.1-linux.sh" -O netbeans-8.1-linux.sh
-wget --trust-server-names "https://www.trillian.im/get/linux/2.0/?deb=64"
+wget --trust-server-names "https://www.trillian.im/get/linux/2.0/?deb=64&gccv=5"
 wget "http://installer.jdownloader.org/JD2Setup_x64.sh"
 wget "http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz"
 
