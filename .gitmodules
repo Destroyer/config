@@ -1,0 +1,3 @@
+[submodule "windows/trillian/stixe/plugins/trillian-kolobok-smiles"]
+	path = windows/trillian/stixe/plugins/trillian-kolobok-smiles
+	url = https://github.com/Destroyer/trillian-kolobok-smiles
