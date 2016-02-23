@@ -1,5 +1,5 @@
 #!/bin/sh
-# execute with sudo bash install.bsh
+# execute with sudo bash install.sh
 mkdir -p ~/_install
 mkdir -p ~/_apps
 cd ~/_install
