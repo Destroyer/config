@@ -15,7 +15,7 @@ wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 wget "http://synergy-project.org/files/packages/synergy-v1.7.5-stable-fa85a24-Linux-x86_64.deb"
 wget "https://download.sublimetext.com/sublime-text_build-3103_amd64.deb"
 wget "http://download.netbeans.org/netbeans/8.1/final/bundles/netbeans-8.1-linux.sh" -O netbeans-8.1-linux.sh
-wget --trust-server-names "https://www.trillian.im/get/linux/2.0/?deb=64&gccv=5"
+wget --trust-server-names "https://www.trillian.im/get/linux/2.0/trillian_2.0.0.7_v5_amd64.deb"
 wget "http://installer.jdownloader.org/JD2Setup_x64.sh"
 
 apt-get -y install alien \
