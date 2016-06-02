@@ -3012,7 +3012,7 @@
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="center"/></icontrol>
 			<icontrol name="text"><rect><left num="44" width="0"/><right num="35" width="1"/><top num="22" height="0"/><bottom num="%this.text.desired_height%+22" height="0"/></rect>
 				<settings name="text-wordwrap" value="1"/><settings name="line-spacing" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="top"/></icontrol>
-			<icontrol name="grouptime"><rect><left num="32" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
+			<icontrol name="grouptime"><rect><left num="60" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="right"/><settings name="text-vertical-alignment" value="top"/></icontrol>
 			<icontrol name="separator"><rect><left num="43" width="0"/><right num="35" width="1"/></rect></icontrol>
 		</message-item>
@@ -3028,7 +3028,7 @@
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="center"/></icontrol>
 			<icontrol name="text"><rect><left num="44" width="0"/><right num="35" width="1"/><top num="22" height="0"/><bottom num="%this.text.desired_height%+22" height="0"/></rect>
 				<settings name="text-wordwrap" value="1"/><settings name="line-spacing" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="top"/></icontrol>
-			<icontrol name="grouptime"><rect><left num="32" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
+			<icontrol name="grouptime"><rect><left num="60" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="right"/><settings name="text-vertical-alignment" value="top"/></icontrol>
 			<icontrol name="separator"><rect><left num="43" width="0"/><right num="35" width="1"/></rect></icontrol>
 		</message-item>
@@ -3048,7 +3048,7 @@
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="center"/></icontrol>
 			<icontrol name="text"><rect><left num="44" width="0"/><right num="35" width="1"/><top num="22" height="0"/><bottom num="%this.text.desired_height%+22" height="0"/></rect>
 				<settings name="text-wordwrap" value="1"/><settings name="line-spacing" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="top"/></icontrol>
-			<icontrol name="grouptime"><rect><left num="32" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
+			<icontrol name="grouptime"><rect><left num="60" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="right"/><settings name="text-vertical-alignment" value="top"/></icontrol>
 			<icontrol name="separator"><rect><left num="43" width="0"/><right num="35" width="1"/></rect></icontrol>
 		</message-item>
@@ -3064,7 +3064,7 @@
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="center"/></icontrol>
 			<icontrol name="text"><rect><left num="44" width="0"/><right num="35" width="1"/><top num="22" height="0"/><bottom num="%this.text.desired_height%+22" height="0"/></rect>
 				<settings name="text-wordwrap" value="1"/><settings name="line-spacing" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="top"/></icontrol>
-			<icontrol name="grouptime"><rect><left num="32" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
+			<icontrol name="grouptime"><rect><left num="60" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="right"/><settings name="text-vertical-alignment" value="top"/></icontrol>
 			<icontrol name="separator"><rect><left num="43" width="0"/><right num="35" width="1"/></rect></icontrol>
 		</message-item>
@@ -3084,7 +3084,7 @@
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="center"/></icontrol>
 			<icontrol name="text"><rect><left num="44" width="0"/><right num="35" width="1"/><top num="22" height="0"/><bottom num="%this.text.desired_height%+22" height="0"/></rect>
 				<settings name="text-wordwrap" value="1"/><settings name="line-spacing" value="0"/><settings name="text-alignment" value="left"/><settings name="text-vertical-alignment" value="top"/></icontrol>
-			<icontrol name="grouptime"><rect><left num="32" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
+			<icontrol name="grouptime"><rect><left num="60" width="1"/><right num="2" width="1"/><top num="3" height="0"/><bottom num="9" height="0"/></rect>
 				<settings name="text-wordwrap" value="0"/><settings name="text-alignment" value="right"/><settings name="text-vertical-alignment" value="top"/></icontrol>
 			<icontrol name="separator"><rect><left num="43" width="0"/><right num="35" width="1"/></rect></icontrol>
 		</message-item>
