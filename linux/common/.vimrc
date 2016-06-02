@@ -1,3 +1,8 @@
+" Display name of currently opened file
+autocmd BufEnter * let &titlestring = ' ' . expand("%:t")             
+set title
+" --------------------------------------------------------------
+"  Vundle config
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -61,12 +66,4 @@ set mouse=a
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
 
-" Display name of currently opened file
-let &titlestring = $USER . "@" . hostname() . "   " . $PWD . "/" . expand("%:t")
-if &term == "screen"
- set t_ts=^[k
- set t_fs=^[\
-endif
-if &term == "screen" || &term == "xterm"
- set title
-endif
+
