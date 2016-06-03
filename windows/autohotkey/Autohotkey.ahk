@@ -32,7 +32,7 @@
 #IfWinActive, ahk_class ConsoleWindowClass
     !F4::WinClose, A
 #IfWinActive
-; Always on top via Ctrl Space
-^SPACE::  WinSet, AlwaysOnTop, , A
+; Always on top via Ctrl Alt Space
+^!SPACE::  WinSet, AlwaysOnTop, , A
 ; Switch keyboard layout via Alt Shift
 Alt & Shift::Send, {LWin Down}{Space}{LWin Up}

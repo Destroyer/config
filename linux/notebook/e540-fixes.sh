@@ -1,5 +1,5 @@
 cat > /etc/rc.local <<'_EOF'
-#!/bin/sh-e
+#!/bin/sh -e
 # Thinkpad E540 fixes
 # fix touchpad
 syndaemon -i 0.6 -K d
