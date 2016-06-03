@@ -590,7 +590,7 @@
 	<include-frame source="framebar-invite" visible="%message.conference.invite.capable%"/>
 	<include-frame source="framebar-groupadd" visible="%message.conference.groupadd.capable%"/>
 	<include-frame source="framebar-save" visible="%message.save.capable%"/>
-	<include-frame source="framebar-sendfile" visible="%message.file.capable%"/>
+	<!--<include-frame source="framebar-sendfile" visible="%message.file.capable%"/>-->
 	<include-frame source="framebar-history" visible="%message.history.capable%"/>
 	<overflow-frame source="framebar-more" visible="1"/>
 </control>
