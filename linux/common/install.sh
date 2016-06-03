@@ -7,13 +7,14 @@ cd ~/_install
 add-apt-repository -y ppa:danielrichter2007/grub-customizer
 add-apt-repository -y ppa:webupd8team/java
 add-apt-repository -y ppa:numix/ppa
+add-apt-repository ppa:neovim-ppa/unstable
 
 apt-get update
 apt-get -y upgrade
 
 wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 wget "http://synergy-project.org/files/packages/synergy-v1.7.6-stable-bcb9da8-Linux-x86_64.deb"
-wget "https://download.sublimetext.com/sublime-text_build-3103_amd64.deb"
+wget "https://download.sublimetext.com/sublime-text_build-3114_amd64.deb"
 wget "http://download.netbeans.org/netbeans/8.1/final/bundles/netbeans-8.1-linux.sh" -O netbeans-8.1-linux.sh
 wget --trust-server-names "https://www.trillian.im/get/linux/2.0/trillian_2.0.0.7_v5_amd64.deb"
 wget "http://installer.jdownloader.org/JD2Setup_x64.sh"
@@ -31,12 +32,17 @@ htop \
 numlockx \
 curl \
 vim \
+nvim \
 rlwrap \
 redshift \
 redshift-gtk \
 numix-icon-theme \
 vlc \
-ffmpeg
+ffmpeg \
+valgrind \
+source-highlight
+
+
  
 dpkg -i google-chrome-stable_current_amd64.deb || {  apt-get -f -y install; dpkg -i google-chrome-stable_current_amd64.deb; }
 dpkg -i synergy* || {  apt-get -f -y install; dpkg -i synergy*; }
@@ -71,3 +77,8 @@ touch HTML\ file.html
  
 chown -R ${SUDO_USER}:${SUDO_USER} ~/_apps/
 chown -R ${SUDO_USER}:${SUDO_USER} ~/Templates/
+
+
+update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60 
+update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60 
+update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60 
