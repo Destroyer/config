@@ -4,48 +4,26 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 	Exit
 }
 
-# disable hibernation
+# Disable hibernation
 powercfg -h off
- 
-# disable pagefile
-Function Set-OSCVirtualMemory
-{
-        [cmdletbinding(SupportsShouldProcess=$true,DefaultParameterSetName="SetPageFileSize")]
-        Param
-        (
-                [Alias('dl')]
-                [String[]]$DriveLetter,
-                [Parameter(Mandatory=$true,Position=3,ParameterSetName="None")]
-                [Switch]$None,
-        )
-       
-        If($PSCmdlet.ShouldProcess("Setting the virtual memory page file size"))
-        {
-                Foreach($DL in $DriveLetter)
-                {              
-                        If($None)
-                        {
-                                $PageFile = Get-WmiObject -Query "Select * From Win32_PageFileSetting Where Name='$DL\\pagefile.sys'" -EnableAllPrivileges
-                                If($PageFile -ne $null)
-                                {
-                                        $PageFile.Delete()
-                                }
-                                Else
-                                {
-                                        Write-Warning """$DL"" is already set None!"
-                                }
-                        }
-                }
-        }
+
+# Disable automatic pagefile management
+$cs = gwmi Win32_ComputerSystem
+if ($cs.AutomaticManagedPagefile) {
+    $cs.AutomaticManagedPagefile = $False
+    $cs.Put()
+}
+# Disable a *single* pagefile if any
+$pg = gwmi win32_pagefilesetting
+if ($pg) {
+    $pg.Delete()
 }
  
-Set-OSCVirtualMemory -none -Driveletter "C:","D:","E:","F:","G:"
  
- 
- #Source dasm.cz
- # Disable Telemetry
+#Source dasm.cz
+# Disable Telemetry
 Set-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows\DataCollection" -Name "AllowTelemetry" -Type DWord -Value 0
- # Disable Bing Search in Start Menu
+# Disable Bing Search in Start Menu
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" -Name "BingSearchEnabled" -Type DWord -Value 0
 # Disable Location Tracking
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Sensor\Overrides\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}" -Name "SensorPermissionState" -Type DWord -Value 0
