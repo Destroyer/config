@@ -51,7 +51,7 @@ Set-ItemProperty -Path "HKCU:\Software\Microsoft\InputPersonalization\TrainedDat
 Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ConsentPromptBehaviorAdmin" -Type DWord -Value 0
 Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name "PromptOnSecureDesktop" -Type DWord -Value 0
 # Disable Windows Update automatic restart
-Set-ItemProperty -Path "HKLM:\Software\Microsoft\WindowsUpdate\UX\Settings" -Name "UxOption" -Type DWord -Value 1
+Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\WindowsStore\WindowsUpdate" -Name "AutoDownload" -Type DWord -Value 1
 # Disable Lock screen
 If (!(Test-Path "HKLM:\Software\Policies\Microsoft\Windows\Personalization")) {
 	New-Item -Path "HKLM:\Software\Policies\Microsoft\Windows\Personalization" | Out-Null
