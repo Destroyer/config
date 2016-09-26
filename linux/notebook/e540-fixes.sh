@@ -11,9 +11,6 @@ Option "TearFree" "true"
 EndSection
 _EOF
 
-cat > /etc/rc.local <<'_EOF'
-#!/bin/sh -e
-
 # Fix touchpad
 syndaemon -i 0.6 -K d
 
