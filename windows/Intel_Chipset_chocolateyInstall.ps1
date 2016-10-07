@@ -1,3 +1,6 @@
+# Intel_Chipset_V10.1.1.27
+# https://www.asus.com/Motherboards/Z170-A/HelpDesk_Download/
+
 $packageName = 'Intel_Chipset'
 $version = '10.1.1.27'
 $fileType = 'exe'
