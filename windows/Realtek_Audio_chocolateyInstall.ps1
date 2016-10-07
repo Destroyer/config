@@ -1,3 +1,7 @@
+# Realtek Audio
+# Audio: REALTEK HM_TUF V6.0.1.7848
+# https://www.asus.com/Motherboards/Z170-A/HelpDesk_Download/
+
 $packageName = 'Realtek_Audio'
 $version = '6.0.1.7848'
 $fileType = 'exe'
