@@ -15,6 +15,7 @@ $checksum64 ='6279077235be98221115faeaa7ec284e1c3739b6ce215e7b3cfaea909b847892'
 $url = "http://dlcdnet.asus.com/pub/ASUS/misc/vga/Intel_VGA_V2019154474.zip"
 $url64 = "$url"
  
+ 
 Get-ChocolateyWebFile $packageName $unpackFile $url $url64 -checksumtype $checksumtype -checksum $checksum -checksum64 $checksum
 Get-ChocolateyUnzip $unpackFile $unpackDir
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
