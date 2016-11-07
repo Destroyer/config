@@ -1,39 +1,41 @@
 {
-  "timeStamp": 1464898692737,
-  "version": "1.7.2",
+  "timeStamp": 1478481676858,
+  "version": "1.9.16",
   "userSettings": {
-    "advancedUserEnabled": false,
+    "advancedUserEnabled": true,
+    "alwaysDetachLogger": false,
     "autoUpdate": true,
     "cloudStorageEnabled": true,
     "collapseBlocked": true,
     "colorBlindFriendly": false,
     "contextMenuEnabled": true,
     "dynamicFilteringEnabled": true,
-    "experimentalEnabled": false,
     "externalLists": "! Examples:\nhttps://easylist-downloads.adblockplus.org/fb_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
+    "ignoreGenericCosmeticFilters": false,
     "largeMediaSize": 50,
     "parseAllABPHideFilters": true,
     "prefetchingDisabled": true,
     "requestLogMaxEntries": 1000,
     "showIconBadge": true,
     "tooltipsDisabled": false,
-    "webrtcIPAddressHidden": false
+    "webrtcIPAddressHidden": true
   },
   "filterLists": {
     "assets/user/filters.txt": {
       "group": "default",
       "off": false,
-      "entryCount": 6,
-      "entryUsedCount": 5
+      "entryCount": 4,
+      "entryUsedCount": 4
     },
     "assets/ublock/experimental.txt": {
       "title": "uBlock filters – Experimental",
       "group": "default",
       "off": true,
       "supportURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
-      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters"
+      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "supportName": "github.com"
     },
     "https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt": {
       "title": "facebook annoyances blocker",
@@ -46,20 +48,57 @@
     "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
       "title": "EasyList",
       "group": "ads",
-      "homeURL": "https://easylist-downloads.adblockplus.org/easylist.txt",
+      "homeURL": "https://easylist.to/easylist/easylist.txt",
       "supportURL": "https://forums.lanik.us/",
       "off": false,
-      "entryCount": 64744,
-      "entryUsedCount": 64703
+      "entryCount": 68915,
+      "entryUsedCount": 68821
     },
     "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
       "title": "EasyPrivacy",
       "group": "privacy",
-      "homeURL": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+      "homeURL": "https://easylist.to/easylist/easyprivacy.txt",
       "supportURL": "https://forums.lanik.us/",
       "off": false,
-      "entryCount": 11605,
-      "entryUsedCount": 11568
+      "entryCount": 12143,
+      "entryUsedCount": 12099
+    },
+    "https://easylist-downloads.adblockplus.org/fanboy-social.txt": {
+      "off": false,
+      "title": "Fanboy’s Social Blocking List",
+      "group": "social",
+      "supportURL": "https://forums.lanik.us/",
+      "entryCount": 14626,
+      "entryUsedCount": 14624
+    },
+    "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt": {
+      "off": false,
+      "title": "Malvertising filter list by Disconnect",
+      "group": "malware",
+      "entryCount": 5608,
+      "entryUsedCount": 380
+    },
+    "https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt": {
+      "off": false,
+      "title": "Malware filter list by Disconnect",
+      "group": "malware",
+      "entryCount": 2872,
+      "entryUsedCount": 163
+    },
+    "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt": {
+      "off": false,
+      "title": "Basic tracking list by Disconnect",
+      "group": "privacy",
+      "entryCount": 34,
+      "entryUsedCount": 29
+    },
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt": {
+      "off": false,
+      "title": "Adblock Warning Removal List",
+      "group": "ads",
+      "supportURL": "https://forums.lanik.us/",
+      "entryCount": 268,
+      "entryUsedCount": 256
     },
     "https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt": {
       "off": false,
@@ -75,8 +114,8 @@
       "homeURL": "https://mirror.cedia.org.ec/malwaredomains/justdomains",
       "supportURL": "http://www.malwaredomains.com/",
       "off": false,
-      "entryCount": 25026,
-      "entryUsedCount": 24515
+      "entryCount": 14214,
+      "entryUsedCount": 14172
     },
     "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
       "title": "Peter Lowe’s Ad server list",
@@ -84,8 +123,17 @@
       "homeURL": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
       "supportURL": "https://pgl.yoyo.org/adservers/",
       "off": false,
-      "entryCount": 2401,
-      "entryUsedCount": 2401
+      "entryCount": 2358,
+      "entryUsedCount": 2358
+    },
+    "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt": {
+      "off": false,
+      "title": "Anti-Adblock Killer | Reek",
+      "group": "ads",
+      "supportURL": "https://github.com/reek/anti-adblock-killer",
+      "instructionURL": "https://github.com/reek/anti-adblock-killer#instruction",
+      "entryCount": 2009,
+      "entryUsedCount": 2006
     },
     "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt": {
       "off": false,
@@ -93,21 +141,21 @@
       "group": "regions",
       "lang": "cs",
       "supportURL": "https://github.com/tomasko126/easylistczechandslovak",
-      "entryCount": 1162,
-      "entryUsedCount": 1161
+      "entryCount": 1377,
+      "entryUsedCount": 1377
     },
     "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
       "title": "Malware Domain List",
       "group": "malware",
       "homeURL": "https://www.malwaredomainlist.com/hostslist/hosts.txt",
       "off": false,
-      "entryCount": 1754,
-      "entryUsedCount": 1754
+      "entryCount": 1253,
+      "entryUsedCount": 1253
     }
   },
-  "netWhitelist": "amd.com\nbehind-the-scene\ncpubenchmark.net\ndocs.google.com\nfeedly.com\nfile-scheme\nfio.cz\nforsen.tv\nforum-vcklan.mzf.cz\ngithub.com\nchrome-extension-scheme\nchrome-scheme\nkvapem.cz\nloopconversation.about-scheme\nmapy.cz\nmusiclab.chromeexperiments.com\nopera-scheme\nplay.google.com\nroot.cz\nslovniky.centrum.cz\nstackoverflow.com\nstg.plug.dj\nvcklan.cz\nwebmail.zoner.com\nwiki.ubuntu.cz\nwww.cnews.cz\nwww.idnes.cz\nwww.superhry.cz\nwww.weddingbros.cz",
+  "netWhitelist": "behind-the-scene\ndocs.google.com\nfeedly.com\nfile-scheme\nfio.cz\nforsen.tv\nforum-vcklan.mzf.cz\ngithub.com\nchrome-extension-scheme\nchrome-scheme\nkvapem.cz\nloopconversation.about-scheme\nmapy.cz\nopera-scheme\nplay.google.com\nroot.cz\nslovniky.centrum.cz\nstackoverflow.com\nstg.plug.dj\nvcklan.cz\nwebmail.zoner.com\nwiki.ubuntu.cz\nwww.deezer.com\nwww.trillian.im\nwww.weddingbros.cz",
   "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
-  "urlFilteringString": "",
-  "hostnameSwitchesString": "no-cosmetic-filtering: www.zive.cz true",
-  "userFilters": "! http://www.zive.cz/\nwww.zive.cz###prolinkhdr\n\n! http://www.zive.cz/\nzive.cz###page-hub-wrapper\n\n! http://www.zive.cz/\nwww.zive.cz###prolinkftr\n\n! http://www.zive.cz/\nzive.cz##.bx-adv-label\n\n! http://www.mobilmania.cz/\nwww.mobilmania.cz###prolinkhdr\n\n! smartmania.cz\n||smartmania.cz/wp-content/uploads/an-temp$first-party\n"
+  "urlFilteringString": "www.inoreader.com https://connect.facebook.net/en_US/fbevents.js script noop",
+  "hostnameSwitchesString": "no-remote-fonts: en.cppreference.com true\nno-remote-fonts: www.zive.cz true\nno-remote-fonts: m.zive.cz true",
+  "userFilters": "! smartmania.cz\n||smartmania.cz/wp-content/uploads/an-temp$first-party\n\n\n! https://www.inoreader.com/all_articles\nwww.inoreader.com###sinner_container\n\n! zive atd\n! @@||go.bbelements.com/please/code$script,domain=zive.cz\n||prolink.ostium.cz/5.0/$script\n\n! 3. 9. 2016 1:55:43 idnes.cz\n||1gr.cz/js/uni/oldback/logo.png$script\n"
 }
