@@ -4,7 +4,7 @@
 $packageName = 'Intel_Chipset'
 $version = '10.1.1.27'
 $fileType = 'exe'
-$silentArgs = '-s -norestart'
+$silentArgs = '-s'
 $unpackDir = New-Item "${ENV:TEMP}\intelchipsetdriver" -ItemType Directory -Force
 $unpackFile = "${ENV:TEMP}\Intel_Chipset_V101127.zip"
 $setupFile = Join-Path "$unpackDir" "SetupChipset.exe"
