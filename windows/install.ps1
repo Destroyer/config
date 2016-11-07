@@ -5,6 +5,8 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 	Exit
 }
 
+# Enable numlock
+Set-ItemProperty -Path "HKEY_USERS:\.Default\Control Panel\Keyboard" -Name "InitialKeyboardIndicators" -Type String -Value 2
 #Source dasm.cz
 # Disable Telemetry
 Set-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows\DataCollection" -Name "AllowTelemetry" -Type DWord -Value 0
