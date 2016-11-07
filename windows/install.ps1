@@ -91,6 +91,7 @@ Get-AppxPackage "Microsoft.Getstarted" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.MicrosoftOfficeHub" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.MicrosoftSolitaireCollection" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.Office.OneNote" | Remove-AppxPackage
+Get-AppxPackage "Microsoft.OneConnect" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.SkypeApp" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.Office.Sway" | Remove-AppxPackage
