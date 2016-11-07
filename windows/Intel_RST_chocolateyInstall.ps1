@@ -24,3 +24,4 @@ Get-ChocolateyUnzip $unpackFile $unpackDir
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile2
 Remove-Item $unpackDir -Recurse -Force
+Remove-Item $unpackFile
