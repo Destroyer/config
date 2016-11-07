@@ -19,7 +19,7 @@ $url64 = "$url"
 
 
  
-Get-ChocolateyWebFile $packageName $unpackFile $url $url64
+Get-ChocolateyWebFile $packageName $unpackFile $url $url64 -checksumtype $checksumtype -checksum $checksum -checksum64 $checksum
 Get-ChocolateyUnzip $unpackFile $unpackDir
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile2
