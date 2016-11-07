@@ -113,8 +113,8 @@ Get-AppxPackage "king.com.CandyCrushSodaSaga" | Remove-AppxPackage
 #   Description:
 # This script will remove and disable OneDrive integration.
 
-Import-Module -DisableNameChecking $PSScriptRoot\..\lib\force-mkdir.psm1
-Import-Module -DisableNameChecking $PSScriptRoot\..\lib\take-own.psm1
+Import-Module -DisableNameChecking $PSScriptRoot\force-mkdir.psm1
+Import-Module -DisableNameChecking $PSScriptRoot\take-own.psm1
 
 echo "Kill OneDrive process"
 taskkill.exe /F /IM "OneDrive.exe"
