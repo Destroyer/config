@@ -21,3 +21,4 @@ Get-ChocolateyWebFile $packageName $unpackFile $url $url64 -checksumtype $checks
 Get-ChocolateyUnzip $unpackFile $unpackDir
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
 Remove-Item $unpackDir -Recurse -Force
+Remove-Item $unpackFile
