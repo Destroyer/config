@@ -1,0 +1,2 @@
+- export Netbeans settings
+- git backup
