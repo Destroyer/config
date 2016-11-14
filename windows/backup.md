@@ -1,0 +1,9 @@
+- Outlook(acts,mails)
+- Chrome(plugin settings) 
+- Total Commander(ftp settings)
+- Notepad++(ftp settings)
+- Trillian(history)
+- MSI Afterburner (profiles)
+- Virtualbox (VMs)
+- OBS (profiles)
+- game saves
