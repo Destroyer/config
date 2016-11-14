@@ -21,13 +21,13 @@ Battle.net
 Steam  
 Origin  
 GoG Galaxy  
-Cheat engine
-Dupe Guru
-Microsoft Keyboard layout creator
-Microsoft Baseline Security Analyzer
-Samsung SideSync
-Samsung USB Driver for mobile phones
-Total Validator
+Cheat engine  
+Dupe Guru  
+Microsoft Keyboard layout creator  
+Microsoft Baseline Security Analyzer  
+Samsung SideSync  
+Samsung USB Driver for mobile phones  
+Total Validator  
 ~~PHPStorm~~  
 ~~Mathematica 8~~  
 
