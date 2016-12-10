@@ -36,3 +36,14 @@
 ^!SPACE::  WinSet, AlwaysOnTop, , A
 ; Switch keyboard layout via Alt Shift
 Alt & Shift::Send, {LWin Down}{Space}{LWin Up}
+
+#IfWinActive ahk_class IrfanView
+SendMode Input
+
+*$WheelUp::
+Send {LCtrl down}{WheelUp}{LCtrl up}
+return
+
+*$WheelDown::
+Send {LCtrl down}{WheelDown}{LCtrl up}
+return
