@@ -45,14 +45,14 @@ WinSCP
 ffmpeg  
 youtube-dl  
   
-##Xubuntu 15.10 x64
+##Xubuntu 16.04 x64
 Doxygen  
 Git  
 Gnuplot  
 Google Chrome  
 Graphviz  
 Grub customizer  
-VIM  
+NVIM  
 Htop  
 JDK  
 JDownloader  
