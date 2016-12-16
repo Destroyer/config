@@ -1,18 +1,18 @@
-# Intel_Chipset_V10.1.1.27
+# Intel_chipset_10.1.1.38
 # https://www.asus.com/Motherboards/Z170-A/HelpDesk_Download/
 
 $packageName = 'Intel_Chipset'
-$version = '10.1.1.27'
+$version = '10.1.1.38'
 $fileType = 'exe'
 $silentArgs = '-s'
 $unpackDir = New-Item "${ENV:TEMP}\intelchipsetdriver" -ItemType Directory -Force
-$unpackFile = "${ENV:TEMP}\Intel_Chipset_V101127.zip"
+$unpackFile = "${ENV:TEMP}\Intel_chipset_101138.zip"
 $setupFile = Join-Path "$unpackDir" "SetupChipset.exe"
 $checksumtype = 'sha256'
-$checksum ='a27d0e2715cb6503ca645089260166f64ef42540529ad5cd8e334f994134dee3'
-$checksum64 ='a27d0e2715cb6503ca645089260166f64ef42540529ad5cd8e334f994134dee3'
+$checksum ='f7dd5b34eb18ebc5c690b05a163cc9f966b04c6c1ab6c24454f01bbec8f25252'
+$checksum64 ='f7dd5b34eb18ebc5c690b05a163cc9f966b04c6c1ab6c24454f01bbec8f25252'
 
-$url = "http://dlcdnet.asus.com/pub/ASUS/misc/utils/Intel_Chipset_V101127.zip"
+$url = "http://dlcdnet.asus.com/pub/ASUS/misc/utils/Intel_chipset_101138.zip"
 $url64 = "$url"
 
  
