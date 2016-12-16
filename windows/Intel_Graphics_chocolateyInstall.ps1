@@ -1,18 +1,18 @@
-# Intel_VGA_V2019154474
+# 	Intel_VGA_21.20.16.4542_Win64
 # https://www.asus.com/Motherboards/Z170-A/HelpDesk_Download/
 
 $packageName = 'Intel_Graphics'
-$version = '20.19.15.4474'
+$version = '21.20.16.4542'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot'
 $unpackDir = New-Item "${ENV:TEMP}\intelgraphics" -ItemType Directory -Force
-$unpackFile = "${ENV:TEMP}\Intel_VGA_V2019154474.zip"
+$unpackFile = "${ENV:TEMP}\Intel_VGA_2120164542_Win64.zip"
 $setupFile = Join-Path "$unpackDir" "AsusSetup.exe"
 $checksumtype = 'sha256'
-$checksum ='6279077235be98221115faeaa7ec284e1c3739b6ce215e7b3cfaea909b847892'
-$checksum64 ='6279077235be98221115faeaa7ec284e1c3739b6ce215e7b3cfaea909b847892'
+$checksum ='31a17b1f983ce49eb80d4f1edd982dae4f6ea3c15c439b87779c994db26b6ad3'
+$checksum64 ='31a17b1f983ce49eb80d4f1edd982dae4f6ea3c15c439b87779c994db26b6ad3'
 
-$url = "http://dlcdnet.asus.com/pub/ASUS/misc/vga/Intel_VGA_V2019154474.zip"
+$url = "http://dlcdnet.asus.com/pub/ASUS/misc/vga/Intel_VGA_2120164542_Win64.zip"
 $url64 = "$url"
  
  
