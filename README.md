@@ -28,6 +28,8 @@ Microsoft Baseline Security Analyzer
 Samsung SideSync  
 Samsung USB Driver for mobile phones  
 Total Validator  
+Plex  
+Ninite  
 ~~PHPStorm~~  
 ~~Mathematica 8~~  
 
