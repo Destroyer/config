@@ -3,13 +3,39 @@ function stream { C:\Apps\Streamlink\Streamlink.exe https://www.twitch.tv/$args 
 function transfer { curl -Headers @{"Max-Days" = "$($args[1])"} -method put -infile .\$($args[0]) https://transfer.sh/$($args[0]) }
  
 
-# Linux aliases
-Set-Alias ll Get-ChildItem
-# Source: https://github.com/mikemaccana/powershell-profile/blob/master/Microsoft.PowerShell_profile.ps1
-function df {
-	get-volume
+function ahk($script)
+{
+    $pipeName = "AHK_" + [System.Environment]::TickCount
+    $pipeDir = [System.IO.Pipes.PipeDirection]::Out
+    $maxNum = [Int]254
+    $pipeTMode = [System.IO.Pipes.PipeTransmissionMode]::Message
+    $pipeOptions = [System.IO.Pipes.PipeOptions]::None
+    
+    $ahkPath = [Environment]::GetFolderPath("ProgramFiles") + "\AutoHotkey\AutoHotkey.exe"
+    
+    $pipe_ga = new-object System.IO.Pipes.NamedPipeServerStream($pipeName, $pipeDir, $maxNum, $pipeTMode, $pipeOptions)
+        
+    $pipe = new-object System.IO.Pipes.NamedPipeServerStream($pipeName, $pipeDir, $maxNum, $pipeTMode, $pipeOptions)
+    
+    if ($pipe_ga -and $pipe) {
+        Start-Process $ahkPath "\\.\pipe\$pipeName"
+        $pipe_ga.WaitForConnection()
+        $pipe_ga.Dispose()
+        $pipe.WaitForConnection()
+        $script = [char]65279 + $script
+        $sw = new-object System.IO.StreamWriter($pipe)
+        $sw.Write($script)
+            
+        $sw.Dispose()
+        $pipe.Dispose()
+    } else { Write-Host "Operation cancelled: Failed to create named pipe" }
 }
 
+# Linux aliases
+Set-Alias ll Get-ChildItem
+Set-Alias df get-volume
+
+# Source: https://github.com/mikemaccana/powershell-profile/blob/master/Microsoft.PowerShell_profile.ps1
 function sed($file, $find, $replace){
 	(Get-Content $file).replace("$find", $replace) | Set-Content $file
 }
@@ -22,6 +48,7 @@ function sed-recursive($filePattern, $find, $replace) {
 		Set-Content $file.PSPath
 	}
 }
+
 
 function grep($regex, $dir) {
 	if ( $dir ) {
@@ -109,4 +136,29 @@ function unzip ($file) {
 	New-Item -Force -ItemType directory -Path $dirname
 	expand-archive $file -OutputPath $dirname -ShowProgress
 }
+# ---
+function xdg-open() {
+ii .
+}
+function Get-Time { return $(get-date | foreach { $_.ToLongTimeString() } ) }
+function prompt
+{
+    # Write the time 
+    write-host "[" -noNewLine
+    write-host $(Get-Time) -foreground yellow -noNewLine
+    write-host "] " -noNewLine
+	write-host "$env:UserName@" -noNewLine
+	write-host $env:UserDomain":" -noNewLine
+    # Write the path
+    write-host $($(Get-Location).Path.replace($home,"~").replace("\","/")) -foreground green -noNewLine
+    write-host $(if ($nestedpromptlevel -ge 1) { '>>' }) -noNewLine
+	If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]"Administrator")) {
+    return "$ "
+	}
+	Else {
+	return "# "
+	}
+}
+
+cd ~
 
