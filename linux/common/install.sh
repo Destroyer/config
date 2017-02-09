@@ -41,10 +41,11 @@ source-highlight \
 unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller \
 nethogs \
 iptraf \
-strace
+strace \
+zsh \
 
 
- 
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
 dpkg -i google-chrome-stable_current_amd64.deb || {  apt-get -f -y install; dpkg -i google-chrome-stable_current_amd64.deb; }
 dpkg -i synergy* || {  apt-get -f -y install; dpkg -i synergy*; }
 dpkg -i trillian_2*  || {  apt-get -f -y install; dpkg -i trillian_2*; }
