@@ -53,8 +53,6 @@ set numberwidth=6
 highlight LineNr ctermbg=Blue
 " See current line
 set cursorline
-" Set font of the current line 
-hi CursorLine term=NONE cterm=NONE guibg=Grey40 ctermbg=234
 " Command line complation
 set wildmenu
 " Identation
