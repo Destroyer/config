@@ -49,8 +49,6 @@ set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 set nu
 " Line number size
 set numberwidth=6
-" Line number in a different color 
-highlight LineNr ctermbg=Blue
 " See current line
 set cursorline
 " Command line complation
