@@ -48,8 +48,10 @@ zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
 dpkg -i google-chrome-stable_current_amd64.deb || {  apt-get -f -y install; dpkg -i google-chrome-stable_current_amd64.deb; }
 dpkg -i synergy* || {  apt-get -f -y install; dpkg -i synergy*; }
+dpkg -i code* || {  apt-get -f -y install; dpkg -i code*; }
 dpkg -i trillian_2*  || {  apt-get -f -y install; dpkg -i trillian_2*; }
- 
+tar xvf IdeaC.tar.gz -C ~/_apps/
+
 # Numlock fix
 # source: https://help.ubuntu.com/community/NumLock
 echo -e "\n\ngreeter-setup-script=/usr/bin/numlockx on" >> /usr/share/lightdm/lightdm.conf.d/60-lightdm-gtk-greeter.conf
