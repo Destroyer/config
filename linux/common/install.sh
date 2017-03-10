@@ -12,7 +12,7 @@ apt-get -y upgrade
 
 wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 wget "https://synergy-project.org/files/packages/synergy-v1.8.7-stable-9799e96-Linux-x86_64.deb"
-wget "https://download-cf.jetbrains.com/idea/ideaIC-2016.3.4.tar.gz" -O ideaC.tar.gz
+wget "http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh" -O netbeans-8.2-linux.sh
 wget --trust-server-names "https://go.microsoft.com/fwlink/?LinkID=760868"
 wget --trust-server-names "https://www.trillian.im/get/linux/2.0/trillian_2.0.0.7_v5_amd64.deb"
 wget "http://installer.jdownloader.org/JD2Setup_x64.sh"
@@ -66,6 +66,12 @@ apt -y autoremove
 cd ~/_install
 sh JD2Setup_x64.sh &
 wait
+
+echo "0442d4eaae5334f91070438512b2e8abf98fc84f07a9352afbc2c4ad437d306c" netbeans-8.2-linux.sh | sha256sum -c -
+if [ "$?" = "0" ]; then
+sh netbeans-8.2-linux.sh &		
+wait
+fi
 
 cd ~/Templates
 touch CPP\ file.cpp
