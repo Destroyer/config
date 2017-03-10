@@ -1,0 +1,3 @@
+#!/bin/sh
+wget "https://download-cf.jetbrains.com/idea/ideaIC-2016.3.5.tar.gz" -O ideaC.tar.gz
+tar xvf IdeaC.tar.gz -C ~/_apps/
