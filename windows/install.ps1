@@ -95,6 +95,8 @@ Set-Service "DiagTrack" -StartupType Disabled
 # Stop and disable WAP Push Service
 Stop-Service "dmwappushservice"
 Set-Service "dmwappushservice" -StartupType Disabled
+# Set theme to dark
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" -Name "AppsUseLightTheme" -Type DWord -Value 0
 
 # Uninstall default Microsoft applications
 Get-AppxPackage "Microsoft.3DBuilder" | Remove-AppxPackage
