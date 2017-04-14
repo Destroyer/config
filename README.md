@@ -1,13 +1,12 @@
-#My configuration
-##Windows 10 x64
+# My configuration
+## Windows 10 x64
 7-Zip x64  
 Autohotkey  
 f.lux  
 Google Chrome  
 IrfanView  
-Microsoft Visual Studio Enterprise 2015  
+Microsoft Visual Studio Enterprise 2017  
 Notepad++  
-VirtualBox  
 PicPick  
 SoftPerfect RAM Disk  
 SpaceDesk  
@@ -20,34 +19,39 @@ XAMPP
 Battle.net  
 Steam  
 Origin  
+uPlay  
 GoG Galaxy  
-Cheat engine  
 Dupe Guru  
 Microsoft Keyboard layout creator  
 Microsoft Baseline Security Analyzer  
 Samsung SideSync  
 Samsung USB Driver for mobile phones  
-Total Validator  
 Plex  
 Ninite  
-~~PHPStorm~~  
+PHPStorm  
 ~~Mathematica 8~~  
 
-###Portable apps
+### Portable apps
 Audacity  
+Avidemux  
 CPU-Z  
+Cheat engine  
 CrystalDiskMark  
 CrystalDiskInfo  
+HWiNFO  
 KeePass  
 MPC-HC  
 OBS  
 Process explorer  
+Recuva  
+sysinternals  
+WinDirStat  
 Wireshark  
 WinSCP  
 ffmpeg  
 youtube-dl  
   
-##Xubuntu 16.04 x64
+## Xubuntu 16.04 x64
 Doxygen  
 Git  
 Gnuplot  
@@ -56,17 +60,17 @@ Graphviz
 Grub customizer  
 NVIM  
 Htop  
-JDK  
+Open-JDK  
 JDownloader  
 Kile  
-Netbeans  
+QtCreator  
 Redshift  
-Sublime text  
 Synergy  
 Trillian  
 VLC  
+Visual studio code
 
-###HW
+## HW
 Lenovo E540 http://support.lenovo.com/cz/cs/products/Laptops-and-netbooks/ThinkPad-Edge-laptops/ThinkPad-Edge-E540  
 MB GA P55-UD3L http://www.gigabyte.com/products/product-page.aspx?pid=3501  
 MB Asus Z170-A http://asus.com/cz/Motherboards/Z170-A/  
