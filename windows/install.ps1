@@ -113,6 +113,8 @@ Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.Office.Sway" | Remove-AppxPackage
 Get-AppxPackage "9E2F88E3.Twitter" | Remove-AppxPackage
 Get-AppxPackage "king.com.CandyCrushSodaSaga" | Remove-AppxPackage
+Get-AppxPackage "Microsoft.Microsoft3DViewer" | Remove-AppxPackage
+Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
 # Source https://github.com/W4RH4WK/Debloat-Windows-10
 # Remove OneDrive
 #   Description:
