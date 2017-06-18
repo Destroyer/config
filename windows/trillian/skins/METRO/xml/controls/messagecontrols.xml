@@ -605,7 +605,7 @@
 </control>
 
 <control name="editframebar" type="framebar">
-	<include-frame source="framebar-buzzer" visible="!%message.draw%*&ShowBuzzButton;*%message.buzz.capable%"/>
+	<!--<include-frame source="framebar-buzzer" visible="!%message.draw%*&ShowBuzzButton;*%message.buzz.capable%"/>-->
 	<include-frame source="framebar-insert" visible="!%message.draw%"/>
 	<include-frame source="framebar-emoticon" visible="!%message.draw%"/>
 </control>
