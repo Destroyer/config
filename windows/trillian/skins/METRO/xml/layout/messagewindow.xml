@@ -175,7 +175,8 @@
 	<!-- all the edit options -->
 	<icontrol source="editframebar" name="editframebar" visible="%message.edit.toolbar%">
 		<rect>
-			<left num="58 + 26*(&ShowBuzzButton;*%message.buzz.capable%) +((%edit.sendbutton.needed%||%message.draw%)*%message.edit.capable%*96)" width="1"/>
+			<!--<left num="58 + 26*(&ShowBuzzButton;*%message.buzz.capable%) +((%edit.sendbutton.needed%||%message.draw%)*%message.edit.capable%*96)" width="1"/>-->
+			<left num="58 + ((%edit.sendbutton.needed%||%message.draw%)*%message.edit.capable%*96)" width="1"/>
 			<top num="40-(!%message.draw%*28)-4" height="0"/>
 			<right num="6+((%edit.sendbutton.needed%||%message.draw%)*%message.edit.capable%*96)" width="1"/>
 			<bottom num="7" height="1"/>
