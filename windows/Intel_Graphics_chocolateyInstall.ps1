@@ -1,22 +1,21 @@
-# 	Intel_VGA_21.20.16.4542_Win64
+# 	VGA22.20.16.4691_RS2Win10_20170718
 # https://www.asus.com/Motherboards/Z170-A/HelpDesk_Download/
 
 $packageName = 'Intel_Graphics'
-$version = '21.20.16.4542'
+$version = '22.20.16.4691'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot'
 $unpackDir = New-Item "${ENV:TEMP}\intelgraphics" -ItemType Directory -Force
 $unpackFile = "${ENV:TEMP}\Intel_VGA_2120164542_Win64.zip"
 $setupFile = Join-Path "$unpackDir" "AsusSetup.exe"
 $checksumtype = 'sha256'
-$checksum ='31a17b1f983ce49eb80d4f1edd982dae4f6ea3c15c439b87779c994db26b6ad3'
-$checksum64 ='31a17b1f983ce49eb80d4f1edd982dae4f6ea3c15c439b87779c994db26b6ad3'
+$checksum ='ae9260187e7e4e9cd238470e92f9642f91120d6e66e1326028153a910a8da8b5'
+$checksum64 ='ae9260187e7e4e9cd238470e92f9642f91120d6e66e1326028153a910a8da8b5'
 
-$url = "http://dlcdnet.asus.com/pub/ASUS/misc/vga/Intel_VGA_2120164542_Win64.zip"
-$url64 = "$url"
+$url64 = "http://dlcdnet.asus.com/pub/ASUS/mb/07VGA/VGA22.20.16.4691_RS2Win10_20170718.zip"
  
  
-Get-ChocolateyWebFile $packageName $unpackFile $url $url64 -checksumtype $checksumtype -checksum $checksum -checksum64 $checksum
+Get-ChocolateyWebFile $packageName $unpackFile -Url64bit $url64 -checksumtype $checksumtype -checksum64 $checksum
 Get-ChocolateyUnzip $unpackFile $unpackDir
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
 Remove-Item $unpackDir -Recurse -Force
