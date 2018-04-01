@@ -15,7 +15,7 @@ $checksum64 ='cef8567c83d176096ba59d7d56013784b80e69cdef01fc89d172d06069d2aa08'
 $url64 = "http://dlcdnet.asus.com/pub/ASUS/mb/05SATA/IRST15.7.1.1015_RS2_20170718.zip"
 
 
-Get-ChocolateyWebFile $packageName $unpackFile -Url64bit $url64 -checksumtype $checksumtype -checksum64 $checksum
+Get-ChocolateyWebFile $packageName $unpackFile -Url64bit $url64 -checksumtype $checksumtype -checksum64 $checksum64
 Get-ChocolateyUnzip $unpackFile $unpackDir
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
 Remove-Item $unpackDir -Recurse -Force
