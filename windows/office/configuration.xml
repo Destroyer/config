@@ -1,12 +1,13 @@
 <Configuration>
-    <Add OfficeClientEdition="32" Channel="Current">
+    <Add OfficeClientEdition="64" Channel="Monthly">
         <Product ID="O365ProPlusRetail">
             <Language ID="cs-cz"/>
-            <ExcludeApp ID="Lync"/>
             <ExcludeApp ID="OneDrive"/>
-            <ExcludeApp ID="Publisher"/>
+            <ExcludeApp ID="Lync"/>
             <ExcludeApp ID="Groove"/>
+            <ExcludeApp ID="Access"/>
+            <ExcludeApp ID="Publisher"/>
         </Product>
     </Add>
-    <Display Level="None" AcceptEULA="TRUE"/>
+    <Display Level="Full" AcceptEULA="TRUE"/>
 </Configuration>
