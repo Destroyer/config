@@ -13,6 +13,8 @@ _EOF
 
 # Fix touchpad
 syndaemon -i 0.6 -K d
+xinput --set-prop --type=float  $(xinput list --id-only  "SynPS/2 Synaptics TouchPad") "Synaptics Coasting Speed" 0 0
+
 
 # Fix LED after wakup
 cat > /etc/pm/sleep.d/11_led_fix <<'_EOF'
