@@ -163,6 +163,8 @@ $tweaks = @(
 	"DisablePageFile",
 	"DisableMixedRealityPortal",
 	"EnableEmojiPanel",
+	"EnableVerboseSystemMessages",
+	"ChangeDefaultNTP",
 
 	### Auxiliary Functions ###
 	"WaitForKey",
@@ -2539,6 +2541,17 @@ Function EnableEmojiPanel {
 	}
 }
 
+Function EnableVerboseSystemMessages {
+	Write-Output "Enabling verbose system messages."
+	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "VerboseStatus" -Type DWord -Value 1
+}
+
+Function ChangeDefaultNTP {
+	Write-Output "Changing default NTP to CESNET."
+	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers" -Name "0" -Type String -Value "tik.cesnet.cz"
+	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers" -Name "(Default)" -Type String -Value "0"
+	
+}
 
 ##########
 # Auxiliary Functions
