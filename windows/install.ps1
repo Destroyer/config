@@ -2548,7 +2548,7 @@ Function EnableVerboseSystemMessages {
 
 Function ChangeDefaultNTP {
 	Write-Output "Changing default NTP to CESNET."
-	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers" -Name "0" -Type String -Value "tik.cesnet.cz"
+	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers" -Name "0" -Type String -Value "ntp.cesnet.cz"
 	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers" -Name "(Default)" -Type String -Value "0"
 	
 }
