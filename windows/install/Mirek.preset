@@ -187,11 +187,11 @@ UninstallFaxAndScan           # InstallFaxAndScan
 ### CUSTOM TWEAKS ###
 DisableWindowsUpdateRestart
 DisableSnapAssist
-DisablePageFile
+#DisablePageFile
 DisableMixedRealityPortal
 EnableEmojiPanel
 EnableVerboseSystemMessages
-ChangeDefaultNTP
+#ChangeDefaultNTP
 
 
 ### Auxiliary Functions ###
