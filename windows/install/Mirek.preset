@@ -107,7 +107,7 @@ SetVisualFXPerformance          # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
 EnableDarkTheme               # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
-EnableNumlock                 # DisableNumlock
+#EnableNumlock                 # DisableNumlock
 # SetSoundSchemeNone            # SetSoundSchemeDefault
 # DisableStartupSound           # EnableStartupSound
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
