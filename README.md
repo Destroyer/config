@@ -3,76 +3,58 @@
 7-Zip x64  
 Autohotkey  
 f.lux  
-Google Chrome  
+Element  
+Firefox  
 IrfanView  
-Microsoft Visual Studio Enterprise 2017  
 Notepad++  
-PicPick  
+Libreoffice
+Sharex  
 ~SoftPerfect RAM Disk~  
-SpaceDesk  
-Synergy  
-TeamViewer  
-Total Commander  
-Trillian  
+~SpaceDesk~  
+~Synergy~  
+FreeCommander  
+MPV  
 VLC  
-XAMPP  
-Battle.net  
 Steam  
-Origin  
-uPlay  
 GoG Galaxy  
 Dupe Guru  
 Microsoft Keyboard layout creator  
 Microsoft Baseline Security Analyzer  
-~Samsung SideSync~  
-Samsung USB Driver for mobile phones  
-PHPStorm  
 
 
 ### Portable apps
+Aegisub  
 Audacity  
 Avidemux  
 CPU-Z  
 Cheat engine  
 CrystalDiskMark  
 CrystalDiskInfo  
+Everything  
+foobar2000
+Handbrake
 HWiNFO  
 KeePass  
 MPC-HC  
 OBS  
-Process explorer  
 Recuva  
 sysinternals  
-WinDirStat  
+Wiztree  
 Wireshark  
 WinSCP  
 ffmpeg  
 youtube-dl  
   
-## Xubuntu 16.04 x64
-Doxygen  
+## Ubuntu 24.04 x64
 Git  
 Gnuplot  
-Google Chrome  
 Graphviz  
 Grub customizer  
+Firefox  
 NVIM  
 Htop  
-Open-JDK  
 JDownloader  
 Kile  
-QtCreator  
-Redshift  
-Synergy  
-Trillian  
+~Synergy~  
 VLC  
-Visual studio code
-
-## HW
-Lenovo E540 https://pcsupport.lenovo.com/cz/cs/products/Laptops-and-netbooks/ThinkPad-Edge-laptops/ThinkPad-Edge-E540  
-MB GA P55-UD3L https://www.gigabyte.com/Motherboard/GA-P55-UD3L-rev-23#ov
-MB Asus Z170-A https://www.asus.com/cz/Motherboards/Z170-A/  
-GeForce drivers https://www.geforce.com/drivers  
-MSI Afterburner https://www.msi.com/page/afterburner  
-Intel drivers, SSD toolbox https://downloadcenter.intel.com/  
-Razer synapse https://www.razer.com/synapse-2  
+Vscodium
